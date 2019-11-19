@@ -86,7 +86,7 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://library.kissclipart.com/20190304/awq/kissclipart-clown-clipart-clown-happiness-clip-art-d18d5b54ec3ed14a.png"
+              src="https://pixabay.com/get/54e7dd474f50ad14f6d1867dda6d49214b6ac3e4565675487c2e7cd196/figure-2784521_1920.png"
             />
             <figcaption>Clown</figcaption>
           </figure>

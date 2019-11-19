@@ -5,7 +5,7 @@ import CGallery from "./components/CGallery";
 import Builders from "./components/builders/Builders";
 import About from "./components/Otherpgs/About";
 import Contact from "./components/Otherpgs/Contact";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Link, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-grid-gallery";
@@ -15,20 +15,22 @@ import photos3 from "./photos3";
 
 function App() {
   return (
+    <HashRouter basename='/'>
     <div className="App">
-      <Router>
+      
         <Navbar />
         <div className="Gallerywrapper">
         <Route exact path="/" component={CGallery} />
-          <Switch>
+          
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             
             <Route path="/builders" component={Builders} />
-          </Switch>
+          
         </div>
-      </Router>
+      
     </div>
+</HashRouter>
   );
 }
 
