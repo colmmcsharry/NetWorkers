@@ -48,7 +48,7 @@ class CGallery extends React.Component {
             {" "}
             <img
               className="carimages"
-              src="https://cdn-images-1.medium.com/max/1600/0*I0vqL4kZwVo_knXG.png"
+              src="https://thumbs.dreamstime.com/b/cartoon-girl-graphic-designer-showing-color-chart-illustration-41144546.jpg"
             />
             <figcaption>Designer</figcaption>
           </figure>
@@ -77,7 +77,7 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://applebymall.co.uk/wp-content/uploads/2016/06/questions-for-accountants.jpg"
+              src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49939062_735380163500479_7157507177094053888_o.jpg?_nc_cat=105&_nc_oc=AQnrd27zAjH99tDG_HQmNwrhkvTjoeXZKJFM12Rt9PJh4Z7v2xfsBbN4Lh-bn7u-i9g&_nc_ht=scontent-sea1-1.xx&oh=09666b218f7d76e1d94de01d534d172d&oe=5E5671AD"
             />
             <figcaption>Accountant</figcaption>
           </figure>
@@ -86,7 +86,7 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://pixabay.com/get/54e7dd474f50ad14f6d1867dda6d49214b6ac3e4565675487c2e7cd196/figure-2784521_1920.png"
+              src="http://www.clipartbest.com/cliparts/McL/LxA/McLLxAoni.jpeg"
             />
             <figcaption>Clown</figcaption>
           </figure>
