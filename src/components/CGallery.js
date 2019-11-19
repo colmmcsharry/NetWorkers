@@ -44,27 +44,32 @@ class CGallery extends React.Component {
         onSlideChanged={this.onSlideChanged}
       >
         <div className="Mypicsclass">
+        <Link to="/about">
           <figure>
-            {" "}
             <img
               className="carimages"
               src="https://thumbs.dreamstime.com/b/cartoon-girl-graphic-designer-showing-color-chart-illustration-41144546.jpg"
             />
             <figcaption>Designer</figcaption>
           </figure>
+          </Link>
         </div>
         <div className="Mypicsclass">
+        <Link to="/builders">
           <figure>
             <img
               className="carimages"
               src="https://images.all-free-download.com/images/graphiclarge/funny_cartoon_builders_vector_illustration_576191.jpg"
             />
+
             <figcaption>
-              <Link to="/builders"> Builders</Link>
+               Builders
             </figcaption>
           </figure>
+          </Link>
         </div>
         <div className="Mypicsclass">
+        <Link to="/about">
           <figure>
             <img
               className="carimages"
@@ -72,8 +77,10 @@ class CGallery extends React.Component {
             />
             <figcaption>Chef</figcaption>
           </figure>
+          </Link>
         </div>
         <div className="Mypicsclass">
+        <Link to="/about">
           <figure>
             <img
               className="carimages"
@@ -81,8 +88,10 @@ class CGallery extends React.Component {
             />
             <figcaption>Accountant</figcaption>
           </figure>
+          </Link>
         </div>
         <div className="Mypicsclass">
+        <Link to="/about">
           <figure>
             <img
               className="carimages"
@@ -90,6 +99,7 @@ class CGallery extends React.Component {
             />
             <figcaption>Clown</figcaption>
           </figure>
+          </Link>
         </div>
       </AliceCarousel>
     );
