@@ -5,8 +5,8 @@ function About() {
 return (
 	<React.Fragment>
 	<h1>About</h1>
-	<p>This is the todolist app v1.0.0. It is part of a React crash course</p>
-
+	<p>Coming Soon!</p>
+	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 	</React.Fragment>
 	)
 

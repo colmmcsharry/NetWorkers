@@ -33,9 +33,9 @@ export default class Smalldrop extends React.Component {
         </DropdownToggle>
         <DropdownMenu right> {/*so for some reason when I add the style to this one, the menu stops going left*/}
         
-          <DropdownItem><Link to="/Signup">Sign Up</Link></DropdownItem>
+          
           <DropdownItem><Link to="/About">About</Link></DropdownItem>
-          <DropdownItem><Link to="/Login">Contact</Link></DropdownItem>
+          <DropdownItem><Link to="/Contact">Contact</Link></DropdownItem>
 
           
           
