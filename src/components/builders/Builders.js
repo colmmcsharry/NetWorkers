@@ -2,11 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Lightbox from "../../Lightbox.js";
 import Bio from "./Bio";
-import workers from "./workers";
-import man from '../../man.jpg'
+import man from '../../pics/man.jpg'
 
 
 class Builders extends React.Component {

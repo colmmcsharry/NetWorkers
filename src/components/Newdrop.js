@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import { BrowserRouter as  Link} from 'react-router-dom';
 
 export default class Newdrop extends React.Component {
   constructor(props) {

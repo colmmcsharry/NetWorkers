@@ -1,7 +1,4 @@
 import React from "react";
-import Lightbox from "../../Lightbox.js";
-import Gallery from "react-grid-gallery";
-import photos from "../../photos.js";
 
 function Bio(props) {
   return (

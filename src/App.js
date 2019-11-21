@@ -1,18 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CGallery from "./components/CGallery";
 import Builders from "./components/builders/Builders";
 import About from "./components/Otherpgs/About";
 import Contact from "./components/Otherpgs/Contact";
-import { BrowserRouter as Router, HashRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route,  } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-grid-gallery";
 import Lightbox from "./Lightbox";
 import photos from "./photos";
-import photos3 from "./photos3";
-import man from "./man.jpg"
+import Galrender from './Galrender.js'
+
 
 function App() {
   return (
@@ -37,3 +37,5 @@ function App() {
 }
 
 export default App;
+
+// <Galrender iswhom={Alphotos} />

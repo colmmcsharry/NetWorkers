@@ -1,4 +1,4 @@
-export const photos = [
+const photos = [
   {
     src:
       "https://images.unsplash.com/photo-1552903023-dc7b4c9fa5bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
@@ -24,3 +24,5 @@ export const photos = [
     height: 1
   }
 ];
+
+export default photos

@@ -1,92 +1,32 @@
-import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./photos";
+import React from "react";
+import  photos  from "./photos";
 import { photos2 } from "./photos2";
-import { photos3, photos4 } from "./photos3";
+import  Alphotos from "./Alphotos";
+import Galrender from './Galrender'
 
 function Lightbox(props) {
   const iswho = props.iswho;
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
+  
+  
 
   if (iswho === "Mark") {
     return (
-      <div className="Lwrapperdiv">
-        <div className="colmdiv">
-          <Gallery photos={photos} onClick={openLightbox} />
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={photos.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
-        </div>
-      </div>
+      <Galrender iswhom={photos}/>
     );
   } else if (iswho === "Bob") {
     return (
-      <div className="Lwrapperdiv">
-        <div className="colmdiv">
-          <Gallery photos={photos2} onClick={openLightbox} /> {/*these are the small ones*/}
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={photos2.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
-        </div>
-      </div>
+      <Galrender iswhom={photos2}/>
     );
   } else if (iswho === "Alan") {
     return (
-      <div className="Lwrapperdiv">
-        <div className="colmdiv">
-          <Gallery photos={photos3} onClick={openLightbox} />
-          <ModalGateway>
-            {viewerIsOpen ? (
-              <Modal onClose={closeLightbox}>
-                <Carousel
-                  currentIndex={currentImage}
-                  views={photos3.map(x => ({
-                    ...x,
-                    srcset: x.srcSet,
-                    caption: x.title
-                  }))}
-                />
-              </Modal>
-            ) : null}
-          </ModalGateway>
-        </div>
-      </div>
+      <Galrender iswhom={Alphotos}/>
     );
   }
 }
 export default Lightbox;
+
+
+// originally I had copied/pasted the Lightbox code in here, then rather than copy/paste it over and over 
+// and changing (if iswho ==="Mark" or "Bob") etc every time, i just made it a component <Galrender /> and am using props so it knows which
+// photos to render for each person
+// 
