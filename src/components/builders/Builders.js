@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Lightbox from "../../Lightbox.js";
 import Bio from "./Bio";
 import workers from "./workers";
+import man from '../../man.jpg'
+
 
 class Builders extends React.Component {
   items = [1, 2, 3, 4, 5];
@@ -134,7 +136,7 @@ class Builders extends React.Component {
             <figure>
               <img
                 className="carimages"
-                src="https://rapidstartcrm.com/wp-content/uploads/Home-Builder-9.jpg"
+                 src={man}
               />
               <figcaption> Mark </figcaption>
             </figure>

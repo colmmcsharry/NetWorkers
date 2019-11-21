@@ -4,7 +4,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 import { photos2 } from "./photos2";
-import { photos3 } from "./photos3";
+import { photos3, photos4 } from "./photos3";
 
 function Lightbox(props) {
   const iswho = props.iswho;
@@ -47,7 +47,7 @@ function Lightbox(props) {
     return (
       <div className="Lwrapperdiv">
         <div className="colmdiv">
-          <Gallery photos={photos2} onClick={openLightbox} />
+          <Gallery photos={photos2} onClick={openLightbox} /> {/*these are the small ones*/}
           <ModalGateway>
             {viewerIsOpen ? (
               <Modal onClose={closeLightbox}>

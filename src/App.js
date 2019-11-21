@@ -12,6 +12,7 @@ import Gallery from "react-grid-gallery";
 import Lightbox from "./Lightbox";
 import photos from "./photos";
 import photos3 from "./photos3";
+import man from "./man.jpg"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       
         <Navbar />
+        
         <div className="Gallerywrapper">
         <Route exact path="/" component={CGallery} />
           
