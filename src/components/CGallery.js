@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Link } from 'react-router-dom';
 /*remember there is an AliceCarousel.CSS file that can be edited too, like in my group proj version, can remove buttons, etc.*/
 
 class CGallery extends React.Component {

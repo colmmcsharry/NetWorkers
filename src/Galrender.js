@@ -1,11 +1,7 @@
 import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./photos";
-import { photos2 } from "./photos2";
-import Alphotos from "Alphotos";
-import ReactDOM from "react-dom";
+
 
 
 

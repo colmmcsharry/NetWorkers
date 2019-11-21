@@ -5,7 +5,7 @@ import CGallery from "./components/CGallery";
 import Builders from "./components/builders/Builders";
 import About from "./components/Otherpgs/About";
 import Contact from "./components/Otherpgs/Contact";
-import { BrowserRouter as HashRouter, Route,  } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Link, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Gallery from "react-grid-gallery";

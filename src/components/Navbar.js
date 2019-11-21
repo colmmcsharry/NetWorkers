@@ -2,7 +2,7 @@
 
 import logo from "./networking.png";
 import React from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import Newdrop from "./Newdrop";
 import Smalldrop from "./Smalldrop";
 

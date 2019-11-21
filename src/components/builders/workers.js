@@ -40,3 +40,6 @@ const workers = [
 ];
 
 export default workers;
+
+// not actually using this in the app, but may come in handy later if im refactoring, or just want to have all bios in one place, could maybe r
+// save them asa variables and plug them in to the other files, to stop any certain file being too long full of code
