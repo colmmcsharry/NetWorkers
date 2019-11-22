@@ -48,8 +48,9 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://thumbs.dreamstime.com/b/cartoon-girl-graphic-designer-showing-color-chart-illustration-41144546.jpg"
+              src="https://thumbs.dreamstime.com/b/cartoon-girl-graphic-designer-showing-color-chart-illustration-41144546.jpg" alt="designer"
             />
+            
             <figcaption>Designer</figcaption>
           </figure>
           </Link>
@@ -59,7 +60,7 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://images.all-free-download.com/images/graphiclarge/funny_cartoon_builders_vector_illustration_576191.jpg"
+              src="https://images.all-free-download.com/images/graphiclarge/funny_cartoon_builders_vector_illustration_576191.jpg" alt="builder"
             />
 
             <figcaption>
@@ -73,8 +74,9 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://images.all-free-download.com/images/graphicthumb/cartoon_cook_cute_design_vector_541584.jpg"
+              src="https://images.all-free-download.com/images/graphicthumb/cartoon_cook_cute_design_vector_541584.jpg" alt="chef"
             />
+            
             <figcaption>Chef</figcaption>
           </figure>
           </Link>
@@ -84,8 +86,9 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49939062_735380163500479_7157507177094053888_o.jpg?_nc_cat=105&_nc_oc=AQnrd27zAjH99tDG_HQmNwrhkvTjoeXZKJFM12Rt9PJh4Z7v2xfsBbN4Lh-bn7u-i9g&_nc_ht=scontent-sea1-1.xx&oh=09666b218f7d76e1d94de01d534d172d&oe=5E5671AD"
+              src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49939062_735380163500479_7157507177094053888_o.jpg?_nc_cat=105&_nc_oc=AQnrd27zAjH99tDG_HQmNwrhkvTjoeXZKJFM12Rt9PJh4Z7v2xfsBbN4Lh-bn7u-i9g&_nc_ht=scontent-sea1-1.xx&oh=09666b218f7d76e1d94de01d534d172d&oe=5E5671AD" alt="accountant"
             />
+            
             <figcaption>Accountant</figcaption>
           </figure>
           </Link>
@@ -95,8 +98,9 @@ class CGallery extends React.Component {
           <figure>
             <img
               className="carimages"
-              src="http://www.clipartbest.com/cliparts/McL/LxA/McLLxAoni.jpeg"
+              src="http://www.clipartbest.com/cliparts/McL/LxA/McLLxAoni.jpeg" alt="clown"
             />
+            
             <figcaption>Clown</figcaption>
           </figure>
           </Link>

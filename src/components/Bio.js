@@ -11,7 +11,7 @@ function Bio(props) {
       <br />
       E-Mail: <span className="light">{props.bio.email}</span> <br />
       <br />
-      <br /> {props.bio.bio} <br />
+      <br /> {props.bio.blurb} <br />
     </ul>
   );
 }

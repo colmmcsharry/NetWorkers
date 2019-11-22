@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import Lightbox from "../../Lightbox.js";
-import Bio from "./Bio";
+import Lightbox from "../../components/Lightbox.js";
+import Bio from "../Bio";
 import man from '../../pics/man.jpg'
 
 
@@ -27,7 +27,7 @@ class Builders extends React.Component {
           rating: "\u2B50 \u2B50",
           phone: "605 784 8001",
           email: "Mark@gmail.com",
-          bio: "Hey I'm Mark and welcome to my bio"
+          blurb: "Hey I'm Mark and welcome to my bio"
         }}
       />,
       document.getElementById("myelement")
@@ -60,7 +60,7 @@ class Builders extends React.Component {
             rating: "\u2B50 \u2B50",
             phone: "605 784 8001",
             email: "Mark@gmail.com",
-            bio: "Hey I'm Mark and welcome to my bio"
+            blurb: "Hey I'm Mark and welcome to my bio"
           }}
         />,
         document.getElementById("myelement")
@@ -79,7 +79,7 @@ class Builders extends React.Component {
             rating: "\u2B50 \u2B50 \u2B50 \u2B50",
             phone: "086 779 0230",
             email: "bob@gmail.com",
-            bio: "Hey I'm Bob and welcome to my bio"
+            blurb: "Hey I'm Bob and welcome to my bio"
           }}
         />,
         document.getElementById("myelement")
@@ -98,7 +98,7 @@ class Builders extends React.Component {
             rating: "\u2B50 ",
             phone: "778 768 9982",
             email: "al@gmail.com",
-            bio: "Hey I'm Al and welcome to my bio"
+            blurb: "Hey I'm Al and welcome to my bio"
           }}
         />,
         document.getElementById("myelement")
@@ -125,26 +125,29 @@ class Builders extends React.Component {
           responsive={responsive}
           slideToIndex={currentIndex}
           onSlideChanged={this.onSlideChanged}
+          onSlideChange={this.onSlideChange}
           items={this.state.galleryItems}
           ref={el => (this.Carousel = el)}
-          onSlideChange={this.onSlideChange}
+          
           onInitialized={this.onInitialized}
         >
           <div className="Mypicsclass">
             <figure>
               <img
                 className="carimages"
-                 src={man}
-              />
-              <figcaption> Mark </figcaption>
+                 src={man} alt="Mark"
+            />
+              
+              <figcaption> Markoo </figcaption>
             </figure>
           </div>
           <div className="Mypicsclass">
             <figure>
               <img
                 className="carimages"
-                src="https://images.pexels.com/photos/1078879/pexels-photo-1078879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              />
+                src="https://images.pexels.com/photos/1078879/pexels-photo-1078879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Bob"
+            />
+              
               <figcaption> Bob</figcaption>
             </figure>
           </div>
@@ -152,8 +155,9 @@ class Builders extends React.Component {
             <figure>
               <img
                 className="carimages"
-                src="https://www.myjobquote.co.uk/assets/img/builders-1.jpg"
-              />
+                src="https://www.myjobquote.co.uk/assets/img/builders-1.jpg" alt="Alan"
+            />
+              
               <figcaption> Alan</figcaption>
             </figure>
           </div>

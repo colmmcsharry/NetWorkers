@@ -1,7 +1,7 @@
 import React from "react";
-import  photos  from "./photos";
-import { photos2 } from "./photos2";
-import  Alphotos from "./Alphotos";
+import  Markphotos  from "../pics/Markphotos";
+import { Bobphotos } from "../pics/Bobphotos";
+import  Alphotos from "../pics/Alphotos";
 import Galrender from './Galrender'
 
 function Lightbox(props) {
@@ -11,11 +11,11 @@ function Lightbox(props) {
 
   if (iswho === "Mark") {
     return (
-      <Galrender iswhom={photos}/>
+      <Galrender iswhom={Markphotos}/>
     );
   } else if (iswho === "Bob") {
     return (
-      <Galrender iswhom={photos2}/>
+      <Galrender iswhom={Bobphotos}/>
     );
   } else if (iswho === "Alan") {
     return (
