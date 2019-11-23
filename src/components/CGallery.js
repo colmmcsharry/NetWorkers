@@ -49,7 +49,7 @@ class CGallery extends React.Component {
         onSlideChanged={this.onSlideChanged}
       >
         <div className="Mypicsclass">
-        <Link to="/about">
+        <Link to="/designers">
           <figure>
             <img
               className="carimages"

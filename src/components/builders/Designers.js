@@ -9,7 +9,7 @@ import bob from '../../pics/bob.jpg'
 import alan from '../../pics/alan.jpg'
 
 
-class Builders extends React.Component {
+class Designers extends React.Component {
   items = [1, 2, 3, 4, 5];
 
   state = {
@@ -106,7 +106,7 @@ class Builders extends React.Component {
         document.getElementById("myelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="Alan" />,
+        <Lightbox iswho="designer1" />,
         document.getElementById("mybotelement")
       );
     }
@@ -140,7 +140,7 @@ class Builders extends React.Component {
                  src={man} alt="Mark"
             />
               
-              <figcaption> Markoo </figcaption>
+              <figcaption> dee1 </figcaption>
             </figure>
           </div>
           <div className="Mypicsclass">
@@ -150,7 +150,7 @@ class Builders extends React.Component {
                 src={bob} alt="Bob"
             />
               
-              <figcaption> Bob</figcaption>
+              <figcaption> dee2</figcaption>
             </figure>
           </div>
           <div className="Mypicsclass">
@@ -160,7 +160,7 @@ class Builders extends React.Component {
                 src={alan} alt="Alan"
             />
               
-              <figcaption> Alan</figcaption>
+              <figcaption> dee3</figcaption>
             </figure>
           </div>
         </AliceCarousel>
@@ -172,4 +172,4 @@ class Builders extends React.Component {
   }
 }
 
-export default Builders;
+export default Designers;

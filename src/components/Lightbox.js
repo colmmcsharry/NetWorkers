@@ -3,6 +3,7 @@ import  Markphotos  from "../pics/Markphotos";
 import { Bobphotos } from "../pics/Bobphotos";
 import  Alphotos from "../pics/Alphotos";
 import Galrender from './Galrender'
+import {d1photos, d2photos, d3photos} from '../pics/Dphotos'
 
 function Lightbox(props) {
   const iswho = props.iswho;
@@ -21,7 +22,12 @@ function Lightbox(props) {
     return (
       <Galrender iswhom={Alphotos}/>
     );
+  } else if (iswho === "designer1") {
+    return (
+      <Galrender iswhom={d1photos}/>
+    );
   }
+
 }
 export default Lightbox;
 

@@ -1,3 +1,7 @@
+// this component was attempt at rendering all of the different categories in one component, using logic to decide which one. I failed, for now,
+// so will just make a different component for each gallery catergory. Builders, Chefs, Designers, etc...
+// eventually I need to figure out a way to make it work.
+
 import React from "react";
 import ReactDOM from "react-dom";
 import AliceCarousel from "react-alice-carousel";
@@ -40,8 +44,6 @@ constructor(props){
   onSlideChange(e) {
     console.log("Item`s position during a change: ", e.item);
     console.log("slide", e.slide)
-
-
   }
 
   galleryItems() {
