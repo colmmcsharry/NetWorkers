@@ -4,7 +4,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
 import Bio from "../Bio";
-import man from '../../pics/man.jpg'
+import mark from '../../pics/mark.jpg'
 import bob from '../../pics/bob.jpg'
 import alan from '../../pics/alan.jpg'
 
@@ -137,7 +137,7 @@ class Builders extends React.Component {
             <figure>
               <img
                 className="carimages"
-                 src={man} alt="Mark"
+                 src={mark} alt="Mark"
             />
               
               <figcaption> Markoo </figcaption>

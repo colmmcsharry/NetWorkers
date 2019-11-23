@@ -8,7 +8,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
 import Bio from "../Bio";
-import man from '../../pics/man.jpg'
+import mark from '../../pics/mark.jpg'
 
 
 class Workergallery extends React.Component {

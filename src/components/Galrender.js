@@ -44,6 +44,8 @@ return (<div className="Lwrapperdiv">
       )
 }
 
+/*Galrender is the component that renders each category's gallery, eg. builders, designers, chefs. I use the is whom prop to decide which category*/
+
 
 
 

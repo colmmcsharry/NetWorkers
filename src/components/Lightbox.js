@@ -1,9 +1,6 @@
 import React from "react";
-import  Markphotos  from "../pics/Markphotos";
-import { Bobphotos } from "../pics/Bobphotos";
-import  Alphotos from "../pics/Alphotos";
 import Galrender from './Galrender'
-import {d1photos, d2photos, d3photos} from '../pics/Dphotos'
+import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos} from '../pics/photoarrays'
 
 function Lightbox(props) {
   const iswho = props.iswho;
@@ -12,19 +9,27 @@ function Lightbox(props) {
 
   if (iswho === "Mark") {
     return (
-      <Galrender iswhom={Markphotos}/>
+      <Galrender iswhom={markphotos}/>
     );
   } else if (iswho === "Bob") {
     return (
-      <Galrender iswhom={Bobphotos}/>
+      <Galrender iswhom={bobphotos}/>
     );
   } else if (iswho === "Alan") {
     return (
-      <Galrender iswhom={Alphotos}/>
+      <Galrender iswhom={alphotos}/>
     );
   } else if (iswho === "designer1") {
     return (
       <Galrender iswhom={d1photos}/>
+    );
+  } else if (iswho === "designer2") {
+    return (
+      <Galrender iswhom={d2photos}/>
+    );
+  } else if (iswho === "designer3") {
+    return (
+      <Galrender iswhom={d3photos}/>
     );
   }
 

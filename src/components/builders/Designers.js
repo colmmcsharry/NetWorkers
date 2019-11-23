@@ -4,9 +4,9 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
 import Bio from "../Bio";
-import man from '../../pics/man.jpg'
-import bob from '../../pics/bob.jpg'
-import alan from '../../pics/alan.jpg'
+import designer1 from '../../pics/designer1.jpg'
+import designer2 from '../../pics/designer2.jpeg'
+import designer3 from '../../pics/designer3.jpg'
 
 
 class Designers extends React.Component {
@@ -24,18 +24,18 @@ class Designers extends React.Component {
     ReactDOM.render(
       <Bio
         bio={{
-          firstName: "Mark",
-          lastName: "Doe",
+          firstName: "Alaina",
+          lastName: "Toop",
           rating: "\u2B50 \u2B50",
           phone: "605 784 8001",
-          email: "Mark@gmail.com",
-          blurb: "Hey I'm Mark and welcome to my bio"
+          email: "A.toop@alainadesign.com",
+          blurb: "Hey I'm Alaina and welcome to my bio"
         }}
       />,
       document.getElementById("myelement")
     );
     ReactDOM.render(
-      <Lightbox iswho="Mark" />,
+      <Lightbox iswho="designer1" />,
       document.getElementById("mybotelement")
     );
   }
@@ -53,60 +53,60 @@ class Designers extends React.Component {
   onSlideChange(e) {
     console.log("Item`s position during a change: ", e.item);
     if (e.item === 2) {
-      console.log("now its Mark");
+      console.log("now its Alaina");
       ReactDOM.render(
         <Bio
           bio={{
-            firstName: "Mark",
-            lastName: "Doe",
-            rating: "\u2B50 \u2B50",
-            phone: "605 784 8001",
-            email: "Mark@gmail.com",
-            blurb: "Hey I'm Mark and welcome to my bio"
-          }}
-        />,
-        document.getElementById("myelement")
-      );
-      ReactDOM.render(
-        <Lightbox iswho="Mark" />,
-        document.getElementById("mybotelement")
-      );
-    } else if (e.item === 0) {
-      console.log("now its Bob");
-      ReactDOM.render(
-        <Bio
-          bio={{
-            firstName: "Bob",
-            lastName: "Smith",
-            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
-            phone: "086 779 0230",
-            email: "bob@gmail.com",
-            blurb: "Hey I'm Bob and welcome to my bio"
-          }}
-        />,
-        document.getElementById("myelement")
-      );
-      ReactDOM.render(
-        <Lightbox iswho="Bob" />,
-        document.getElementById("mybotelement")
-      );
-    } else if (e.item === 1) {
-      console.log("now its Al");
-      ReactDOM.render(
-        <Bio
-          bio={{
-            firstName: "Alan",
-            lastName: "Johnson",
-            rating: "\u2B50 ",
-            phone: "778 768 9982",
-            email: "al@gmail.com",
-            blurb: "Hey I'm Al and welcome to my bio"
+            firstName: "Alaina",
+          lastName: "Toop",
+          rating: "\u2B50 \u2B50",
+          phone: "605 784 8001",
+          email: "A.toop@alainadesign.com",
+          blurb: "Hey I'm Alaina and welcome to my bio"
           }}
         />,
         document.getElementById("myelement")
       );
       ReactDOM.render(
         <Lightbox iswho="designer1" />,
+        document.getElementById("mybotelement")
+      );
+    } else if (e.item === 0) {
+      console.log("now its Edward");
+      ReactDOM.render(
+        <Bio
+          bio={{
+            firstName: "Edward",
+            lastName: "Smith",
+            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
+            phone: "086 779 0230",
+            email: "eddys@gmail.com",
+            blurb: "Hey I'm Eddy and welcome to my bio"
+          }}
+        />,
+        document.getElementById("myelement")
+      );
+      ReactDOM.render(
+        <Lightbox iswho="designer2" />,
+        document.getElementById("mybotelement")
+      );
+    } else if (e.item === 1) {
+      console.log("now its Florence");
+      ReactDOM.render(
+        <Bio
+          bio={{
+            firstName: "Florence",
+            lastName: "Johnson",
+            rating: "\u2B50 ",
+            phone: "778 768 9982",
+            email: "florenceJ@gmail.com",
+            blurb: "Hey I'm Florence and welcome to my bio"
+          }}
+        />,
+        document.getElementById("myelement")
+      );
+      ReactDOM.render(
+        <Lightbox iswho="designer3" />,
         document.getElementById("mybotelement")
       );
     }
@@ -137,30 +137,30 @@ class Designers extends React.Component {
             <figure>
               <img
                 className="carimages"
-                 src={man} alt="Mark"
+                 src={designer1} alt="Alaina"
             />
               
-              <figcaption> dee1 </figcaption>
+              <figcaption> Alaina </figcaption>
             </figure>
           </div>
           <div className="Mypicsclass">
             <figure>
               <img
                 className="carimages"
-                src={bob} alt="Bob"
+                src={designer2} alt="Edward"
             />
               
-              <figcaption> dee2</figcaption>
+              <figcaption> Edward</figcaption>
             </figure>
           </div>
           <div className="Mypicsclass">
             <figure>
               <img
                 className="carimages"
-                src={alan} alt="Alan"
+                src={designer3} alt="Florence"
             />
               
-              <figcaption> dee3</figcaption>
+              <figcaption> Florence </figcaption>
             </figure>
           </div>
         </AliceCarousel>
