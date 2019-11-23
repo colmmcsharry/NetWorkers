@@ -9,11 +9,11 @@ import Contact from  './components/Otherpgs/Contact.js'
 
 export default [
 
-<Route exact path="/" component={CGallery} />,
+<Route key="home" exact path="/" component={CGallery} />,
           
-            <Route path="/about" component={About} />,
-            <Route path="/contact" component={Contact} />,
+            <Route key="about" path="/about" component={About} />,
+            <Route key="contact" path="/contact" component={Contact} />,
             
-            <Route path="/builders" component={Builders} />
+            <Route key="builders" path="/builders" component={Builders} />
 
             ]

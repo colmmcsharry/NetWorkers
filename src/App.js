@@ -22,13 +22,15 @@ function App() {
         {routes}
           
         </div>
-        }
+        
       
     </div>
 </HashRouter>
-  );
-}
+  )
 
-export default App;
+ } 
+
+
+export default App; 
 
 // <Galrender iswhom={Alphotos} />
