@@ -9,6 +9,7 @@ import Contact from "./components/Otherpgs/Contact";
 import { BrowserRouter as HashRouter, Route, } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import routes from './routes.js'
+import { Link as Link2, animateScroll as scroll } from "react-scroll";
 
 
 

@@ -7,6 +7,7 @@ import Bio from "../Bio";
 import mark from '../../pics/mark.jpg'
 import bob from '../../pics/bob.jpg'
 import alan from '../../pics/alan.jpg'
+import { Link as Link2, animateScroll as scroll } from "react-scroll";
 
 
 class Builders extends React.Component {
@@ -142,6 +143,7 @@ class Builders extends React.Component {
               
               <figcaption> Markoo </figcaption>
             </figure>
+            
           </div>
           <div className="Mypicsclass">
             <figure>
