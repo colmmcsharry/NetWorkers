@@ -10,9 +10,7 @@ border: green;
 
 .App {
   text-align: center;
-  margin: 0px;
 }
-
 
 div {
   font-family: "Public Sans", sans-serif;
@@ -26,6 +24,7 @@ div {
 }
 body {
   font-family: "Anton", sans-serif;
+
 }
 
 h1 {
@@ -64,6 +63,11 @@ font-family: "Public Sans", sans-serif;
   
 }
 
+.mainCarouselWrapper {border:3px solid orange;
+padding: 60px;
+margin:0px 20px;
+}
+
 /*NavBar and Dropdown CSS begins*/
 
 /*Mynavbar is a long container div with 3 columns, first for logo and dropdown, second blank, third for authlinks*/
@@ -72,8 +76,9 @@ font-family: "Public Sans", sans-serif;
   background-color: white;
   grid-template-columns: 1fr 8fr 1fr 1fr;
   justify-content: center;
-  padding: 30px;
+  padding: 30px 0px;
   grid-column-gap: 20px;
+  border:1px solid red;
 }
 
 /*the container div for the actual logo symbol*/
@@ -113,6 +118,7 @@ font-family: "Public Sans", sans-serif;
 
 
 
+
 /*Lwrapperdiv and Colmdiv are in Galrender, and are just the Lightbox component*/
 .Lwrapperdiv {
   padding: 15px;
@@ -129,7 +135,7 @@ font-family: "Public Sans", sans-serif;
 
 
 #bioelement {
-  background-color:pink;
+  
 }
 
 
@@ -187,13 +193,19 @@ bouncer {
 
   .dropbar {
     grid-column: 1;
+    margin-left:20px;
   }
+
+  .mainCarouselWrapper {border:3px solid orange;
+padding: 00px;
+margin:0px 00px;
+}
 }
  
 
 @media only screen and (max-width: 500px) {
   .carimages {
-    padding: 20px;
+    padding: 00px;
     border-radius: 20%;
     height: 300px;
     width: 300px;
@@ -204,7 +216,14 @@ bouncer {
 }
 /*this positions the bio text back in the centre*/
 
- 
+.dropbar {
+margin-left:20px;
+}
+
+.mainCarouselWrapper {border:3px solid orange;
+padding: 00px;
+margin:0px 00px;
+}
 
  
 }

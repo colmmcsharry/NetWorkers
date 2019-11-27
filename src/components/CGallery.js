@@ -34,6 +34,7 @@ class CGallery extends React.Component {
     };
 
     return (
+      <div className="mainCarouselWrapper">
       <AliceCarousel
         duration={400}
         autoPlay={true}
@@ -111,6 +112,7 @@ class CGallery extends React.Component {
           </Link>
         </div>
       </AliceCarousel>
+      </div>
     );
   }
 }
