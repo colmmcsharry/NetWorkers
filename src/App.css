@@ -58,6 +58,10 @@ font-family: "Public Sans", sans-serif;
 .Gallerywrapper {
   padding-top: 20px;
   background-color: white;
+  border:1px solid green;
+  padding-left: 20px; 
+  padding-right: 20px;
+  
 }
 
 /*NavBar and Dropdown CSS begins*/
@@ -125,6 +129,7 @@ font-family: "Public Sans", sans-serif;
 
 
 #bioelement {
+  background-color:pink;
 }
 
 
@@ -192,9 +197,14 @@ bouncer {
     border-radius: 20%;
     height: 300px;
     width: 300px;
-  }
+   }
 
+   #bioelement {
+  padding-right: 45px;
+}
+/*this positions the bio text back in the centre*/
 
+ 
 
  
 }
