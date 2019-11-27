@@ -21,18 +21,17 @@ return (
 <div>
 <br/>
 <br/>
-
+ 
 <img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 <Mybutton />
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
-	
-	<FontAwesomeIcon icon={"ChevronDown"}/>
         
-	</div>
 	
+	
+        </div>
 )
 }
 

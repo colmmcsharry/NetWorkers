@@ -7,6 +7,7 @@ import Bio from "../Bio";
 import designer1 from '../../pics/designer1.jpg'
 import designer2 from '../../pics/designer2.jpeg'
 import designer3 from '../../pics/designer3.jpg'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 class Designers extends React.Component {
@@ -167,6 +168,8 @@ class Designers extends React.Component {
 
         <div id="myelement" />
         <div id="mybotelement" />
+        <div class="mytarget"></div>
+        <Element name="myel" className="element"/>
       </div>
     );
   }
