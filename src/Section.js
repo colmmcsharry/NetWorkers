@@ -75,11 +75,14 @@ scrollToBottom() {
   render() {
     return (
       <React.Fragment>
-      
-    <a className="test1" to="mytarget" onClick={() => this.scrollTo()}>
-    <FontAwesomeIcon icon="chevron-down" style={{ color: "blue"}} />
+    
+    <div className="bouncer">  
+    <a to="myel" onClick={() => this.scrollTo()}>
+    <FontAwesomeIcon icon="chevron-down" style={{ color: "#2976B4"}} />
           </a>
+          </div>
          </React.Fragment>
+
       
     );
   }

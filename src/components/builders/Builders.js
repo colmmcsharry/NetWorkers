@@ -34,7 +34,7 @@ class Builders extends React.Component {
           blurb: "Hey I'm Mark and welcome to my bio"
         }}
       />,
-      document.getElementById("myelement")
+      document.getElementById("bioelement")
     );
     ReactDOM.render(
       <Lightbox iswho="Mark" />,
@@ -69,7 +69,7 @@ class Builders extends React.Component {
             "Check out my portfolio and testimonals to see for yourself!" ]
           }}
         />,
-        document.getElementById("myelement")
+        document.getElementById("bioelement")
       );
       ReactDOM.render(
         <Lightbox iswho="Mark" />,
@@ -88,7 +88,7 @@ class Builders extends React.Component {
             blurb: "Hey I'm Bob and welcome to my bio"
           }}
         />,
-        document.getElementById("myelement")
+        document.getElementById("bioelement")
       );
       ReactDOM.render(
         <Lightbox iswho="Bob" />,
@@ -107,7 +107,7 @@ class Builders extends React.Component {
             blurb: "Hey I'm Al and welcome to my bio"
           }}
         />,
-        document.getElementById("myelement")
+        document.getElementById("bioelement")
       );
       ReactDOM.render(
         <Lightbox iswho="Alan" />,
@@ -172,7 +172,7 @@ class Builders extends React.Component {
           </div>
         </AliceCarousel>
 
-        <div id="myelement" />
+        <div id="bioelement" />
         <div id="mybotelement" />
         <Element name="myel" className="element">
         </Element>

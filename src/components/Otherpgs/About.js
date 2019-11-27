@@ -11,7 +11,7 @@ return (
 	<p>Coming Soonhbkjbk!</p>
 	
 	
-
+	<div className="bouncer"> V </div>
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />

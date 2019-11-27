@@ -8,6 +8,7 @@ import designer1 from '../../pics/designer1.jpg'
 import designer2 from '../../pics/designer2.jpeg'
 import designer3 from '../../pics/designer3.jpg'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Section from '../../Section'
 
 
 class Designers extends React.Component {
@@ -33,7 +34,7 @@ class Designers extends React.Component {
           blurb: "Hey I'm Alaina and welcome to my bio"
         }}
       />,
-      document.getElementById("myelement")
+      document.getElementById("bioelement")
     );
     ReactDOM.render(
       <Lightbox iswho="designer1" />,
@@ -66,7 +67,7 @@ class Designers extends React.Component {
           blurb: "Hey I'm Alaina and welcome to my bio"
           }}
         />,
-        document.getElementById("myelement")
+        document.getElementById("bioelement")
       );
       ReactDOM.render(
         <Lightbox iswho="designer1" />,
@@ -85,7 +86,7 @@ class Designers extends React.Component {
             blurb: "Hey I'm Eddy and welcome to my bio"
           }}
         />,
-        document.getElementById("myelement")
+        document.getElementById("bioelement")
       );
       ReactDOM.render(
         <Lightbox iswho="designer2" />,
@@ -104,7 +105,7 @@ class Designers extends React.Component {
             blurb: "Hey I'm Florence and welcome to my bio"
           }}
         />,
-        document.getElementById("myelement")
+        document.getElementById("bioelement")
       );
       ReactDOM.render(
         <Lightbox iswho="designer3" />,
@@ -166,9 +167,11 @@ class Designers extends React.Component {
           </div>
         </AliceCarousel>
 
-        <div id="myelement" />
+        <div id="bioelement"> 
+          
+        </div>  
+
         <div id="mybotelement" />
-        <div class="mytarget"></div>
         <Element name="myel" className="element"/>
       </div>
     );

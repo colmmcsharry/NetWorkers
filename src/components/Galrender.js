@@ -1,7 +1,8 @@
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-
+import Section from '../Section'
+/*this component controls who shows up in the lightbox*/
 
 
 
@@ -22,6 +23,7 @@ const [currentImage, setCurrentImage] = useState(0);
 
 return (<div className="Lwrapperdiv">
         <div className="colmdiv">
+        
           <Gallery photos={iswhom} onClick={openLightbox} />
           <ModalGateway>
             {viewerIsOpen ? (

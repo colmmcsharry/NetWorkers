@@ -12,10 +12,13 @@ function Bio(props) {
       Rating: {props.bio.rating} <br />
       Phone: <span className="light"> {props.bio.phone}</span>
       <br />
-      E-Mail: <span className="light">{props.bio.email}</span> <br />
-      <br /><br/><br/>
-       <Section />
-      <br /> {props.bio.blurb} 
+      E-Mail: <span className="light">{props.bio.email}</span>  
+      <br /> 
+      <div className="bouncercontainer"><Section /></div>
+      <br/>
+       {props.bio.blurb} 
+       <br />
+       
     </ul>
   );
 }
