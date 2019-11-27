@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
+
+
 /** {
 box-sizing: border-box;
 margin: 0;
@@ -10,6 +12,7 @@ border: green;
   text-align: center;
   margin: 0px;
 }
+
 
 div {
   font-family: "Public Sans", sans-serif;
@@ -49,6 +52,7 @@ a:hover {
 .Gallerywrapper {
   padding-top: 20px;
   background-color: white;
+  border:1px solid red;
 }
 
 /*biowrap begins*/
@@ -56,7 +60,7 @@ a:hover {
 .biowrap {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  border: 5px solid yellow;
+  border: 5px solid blue;
   justify-content: center;
   align-items: center;
   grid-column-gap: 10px;
@@ -67,6 +71,7 @@ a:hover {
   font-family: "Public Sans", sans-serif;
   grid-column: 2;
   padding: 20px 190px;
+  border:1px solid green;
 }
 
 /*NavBar and Dropdown CSS begins*/
@@ -82,13 +87,13 @@ a:hover {
 }
 
 /*the container div for the actual logo symbol*/
-.llogo {
+.logocontainer {
   position: relative;
   grid-column: 1;
   bottom: 20px;
 }
 
-.ddropbar {
+.dropbar {
   width: 100px;
   grid-column: 3;
 }
@@ -106,29 +111,7 @@ a:hover {
   grid-column: 4;
 }
 
-.Marklight {
-  display: grid;
-  border: 5px solid pink;
-  justify-content: center;
-  align-items: center;
-}
 
-.Lightboxdiv {
-  border: 1px solid red;
-}
-
-.actualLightbox {
-  border: 1px solid green;
-}
-.biowrapper {
-  display: grid;
-  justify-items: center;
-}
-
-.biodiv {
-  padding: 15px;
-  width: 40%;
-}
 
 .Lwrapperdiv {
   padding: 15px;
@@ -142,6 +125,8 @@ a:hover {
 }
 
 /*navbar ends*/
+
+
 
 @media only screen and (max-width: 800px) {
   .hamburger {
@@ -158,6 +143,8 @@ a:hover {
   }
 }
 
+
+
 @media only screen and (max-width: 500px) {
   .carimages {
     padding: 20px;
@@ -171,3 +158,5 @@ a:hover {
     padding: 20px 0px;
   }
 }
+
+/*classes to keep, mypicsclass, mynavbar, gallerywrapper, myelement, mybotelement, myel?, Lwrapperdiv, colmdiv*/

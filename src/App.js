@@ -10,6 +10,13 @@ import { BrowserRouter as HashRouter, Route, } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import routes from './routes.js'
 import { Link as Link2, animateScroll as scroll } from "react-scroll";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faCheckSquare, faChevronDown  } from '@fortawesome/free-solid-svg-icons';
+
+
+
+library.add(faCoffee, faCheckSquare, faChevronDown)
 
 
 

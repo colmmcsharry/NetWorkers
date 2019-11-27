@@ -7,7 +7,8 @@ import Bio from "../Bio";
 import mark from '../../pics/mark.jpg'
 import bob from '../../pics/bob.jpg'
 import alan from '../../pics/alan.jpg'
-import { Link as Link2, animateScroll as scroll } from "react-scroll";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Section from '../../Section.js'
 
 
 class Builders extends React.Component {
@@ -63,7 +64,9 @@ class Builders extends React.Component {
             rating: "\u2B50 \u2B50",
             phone: "605 784 8001",
             email: "Mark@gmail.com",
-            blurb: "Hey I'm Mark and welcome to my bio"
+            blurb: ["Hey there, I'm Mark and I'd love to come and help with your building project.", <br/>, "I have over 20 years experience in the building industry,", <br/>,"both commercial and residential.", <br/>,
+            "I run my own company called LandMark Construction and we've", <br/>,"built some of the most visually appealing houses in the neighbourhood",<br/>,
+            "Check out my portfolio and testimonals to see for yourself!" ]
           }}
         />,
         document.getElementById("myelement")
@@ -144,6 +147,8 @@ class Builders extends React.Component {
               <figcaption> Markoo </figcaption>
             </figure>
             
+
+            
           </div>
           <div className="Mypicsclass">
             <figure>
@@ -169,6 +174,8 @@ class Builders extends React.Component {
 
         <div id="myelement" />
         <div id="mybotelement" />
+        <Element name="myel" className="element">
+        </Element>
       </div>
     );
   }

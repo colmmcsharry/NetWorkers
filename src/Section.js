@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import { render } from 'react-dom';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const styles = {
   fontFamily: 'sans-serif',
@@ -35,7 +37,7 @@ scrollToBottom() {
   }
 
   scrollTo() {
-    scroller.scrollTo('scroll-to-element', {
+    scroller.scrollTo('myel', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart'
@@ -72,11 +74,17 @@ scrollToBottom() {
   }
   render() {
     return (
-      <div>
-          <button onClick={this.scrollToBottom}>To the bottom!</button>
-      </div>
+      <React.Fragment>
+      
+    <a className="test1" to="myel" onClick={() => this.scrollTo()}>
+    <FontAwesomeIcon icon="chevron-down"/>
+          </a>
+         </React.Fragment>
+      
     );
   }
 };
 
 export default Section
+
+// this page has all of the scroll functions from the react-scroll demo. i've deleted all the returns except the one I want, which is the element one.

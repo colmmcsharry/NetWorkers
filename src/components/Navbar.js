@@ -10,13 +10,13 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div className="Mynavbar">
-        <div className="llogo">
+        <div className="logocontainer">
           <Link to="/">
             <img src={logo} className="logo" alt="our logo"
             /> 
           </Link>
         </div>
-        <div className="ddropbar">
+        <div className="dropbar">
           <Newdrop />
         </div>
 
