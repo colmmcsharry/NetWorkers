@@ -20,7 +20,7 @@ export default class Newdrop extends React.Component {
 
   render() {
       const Dropstyle = {
-  color: '#4A8ABF',
+  color: '#1B6EB0',
   backgroundColor:'white',
   margin:'0px',
   padding:'10px',

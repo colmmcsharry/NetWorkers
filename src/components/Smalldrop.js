@@ -20,10 +20,11 @@ export default class Smalldrop extends React.Component {
 
   render() {
       const Dropstyle = {
-  color: '#4A8ABF',
+  color: '#1B6EB0',
   backgroundColor:'white',
   margin:'0px',
   padding:'10px',
+  border: '1px solid #1B6EB0'
 }
 ;
     return (

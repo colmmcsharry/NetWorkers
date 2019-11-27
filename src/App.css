@@ -79,19 +79,24 @@ font-family: "Public Sans", sans-serif;
   bottom: 20px;
 }
 
-.dropbar {
-  width: 100px;
-  grid-column: 3;
-}
-
 .logo {
-  height: 100px;
-  width: 100px;
+  margin-top: 10px;
+  height: 60px;
+  width: 60px;
 }
 
 .logo:hover {
   cursor: pointer;
 }
+
+
+.dropbar {
+  width: 100px;
+  grid-column: 3;
+  color: #1B6EB0;
+
+}
+
 
 .hamburger {
   grid-column: 4;
