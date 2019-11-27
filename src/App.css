@@ -58,7 +58,6 @@ font-family: "Public Sans", sans-serif;
 .Gallerywrapper {
   padding-top: 20px;
   background-color: white;
-  border:1px solid red;
 }
 
 /*NavBar and Dropdown CSS begins*/
@@ -110,7 +109,6 @@ font-family: "Public Sans", sans-serif;
   padding: 15px;
   display: grid;
   justify-items: center;
-  border:2px solid green;
   margin-top: 90px;
 }
 
@@ -122,16 +120,12 @@ font-family: "Public Sans", sans-serif;
 
 
 #bioelement {
-  background-color:pink;
-
 }
 
 
 .bouncercontainer {
   position:relative;
   left:48%;
-  background-color: red;
-  border:3px solid gold;
   width:15px;
   height:15px;
   margin:40px 0px 
