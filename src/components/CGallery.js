@@ -25,15 +25,12 @@ class CGallery extends React.Component {
       0: {
         items: 1
       },
-      600: {
-        items: 1
-      },
-
-      900: {
+      800: {
         items: 2
       },
 
-      1024: {
+
+      1101: {
         items: 3
       }
     };
