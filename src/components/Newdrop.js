@@ -24,6 +24,7 @@ export default class Newdrop extends React.Component {
   backgroundColor:'white',
   margin:'0px',
   padding:'10px',
+  border: '1px solid #1B6EB0'
 };
     return (
       <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>

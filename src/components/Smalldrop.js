@@ -23,7 +23,8 @@ export default class Smalldrop extends React.Component {
   color: '#1B6EB0',
   backgroundColor:'white',
   margin:'0px',
-  padding:'10px',
+  padding:'11px',
+  height: 'auto',
   border: '1px solid #1B6EB0'
 }
 ;
