@@ -49,22 +49,19 @@ font-family: "Public Sans", sans-serif;
 
 .carimages {
   padding: 20px;
-  border-radius: 20%;
-  height: 300px;
-  width: 400px;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
 }
 
 .Gallerywrapper {
   padding-top: 20px;
   background-color: white;
   padding-left: 20px; 
-  padding-right: 20px;
-  
+  padding-right: 20px;  
 }
 
 .mainCarouselWrapper {
-
-
 }
 
 /*NavBar and Dropdown CSS begins*/
@@ -132,8 +129,24 @@ font-family: "Public Sans", sans-serif;
 /*lightbox ends*/
 
 
+
 #bioelement {
-  
+  display: grid;
+  border:1px solid green;
+  align-content: center;
+  justify-content: center;
+  justify-items:center;
+
+}
+
+.wholebio {
+  border:1px solid yellow;
+  align-self: center;
+}
+
+.blurbdiv {
+  border: 1px solid red;
+  background-color: pink;
 }
 
 
@@ -190,6 +203,7 @@ bouncer {
 @media only screen and (max-width: 800px) {
   .hamburger {
     grid-column: 3;
+   
   }
 
   .logocontainer {

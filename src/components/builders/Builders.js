@@ -31,7 +31,8 @@ class Builders extends React.Component {
           rating: "\u2B50 \u2B50",
           phone: "605 784 8001",
           email: "Mark@gmail.com",
-          blurb: "Hey I'm Mark and welcome to my bio"
+          blurb: "Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project, Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project, Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project, Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project,"
+           
         }}
       />,
       document.getElementById("bioelement")

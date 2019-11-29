@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import CGallery from "./components/CGallery";
 import Builders from "./components/builders/Builders";
 import Designers from "./components/builders/Designers";
@@ -12,11 +11,11 @@ import routes from './routes.js'
 import { Link as Link2, animateScroll as scroll } from "react-scroll";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faCheckSquare, faChevronDown  } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope  } from '@fortawesome/free-solid-svg-icons';
 
 
 
-library.add(faCoffee, faCheckSquare, faChevronDown)
+library.add(faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope)
 
 
 

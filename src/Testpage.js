@@ -1,10 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
 import ReactDOM from "react-dom";
+
+import Forms from './Forms.js'
+import DemoFooter from './DemoFooter'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import Section from './Section.js';
 export { Mybutton }  from './Testpage.js';
+
+
 
 
 function Testpage() {
@@ -19,18 +24,12 @@ return (
 
 	
 <div>
-<br/>
-<br/>
  
-<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
 <Mybutton />
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
+	<Forms />
         
 	
-	
+	<DemoFooter />
         </div>
 )
 }
