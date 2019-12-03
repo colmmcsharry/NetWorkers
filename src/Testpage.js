@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import ReactDOM from "react-dom";
 
 import Forms from './Forms.js'
-import DemoFooter from './DemoFooter'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import Section from './Section.js';
@@ -29,7 +28,7 @@ return (
 	<Forms />
         
 	
-	<DemoFooter />
+	
         </div>
 )
 }
