@@ -1,10 +1,10 @@
 import React from "react";
 import { Route } from 'react-router-dom'
-import  Builders  from './components/builders/Builders.js'
+import  Builders  from './components/occupations/Builders.js'
 import CGallery  from './components/CGallery'
 import About  from './components/Otherpgs/About.js'
 import Contact from  './components/Otherpgs/Contact.js'
-import  Designers  from './components/builders/Designers.js'
+import  Designers  from './components/occupations/Designers.js'
 import Testpage from './Testpage'
 
 

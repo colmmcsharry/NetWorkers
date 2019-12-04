@@ -1,5 +1,6 @@
 import React from "react";
 import Galrender from './Galrender'
+import Testimonial from '../Testimonial'
 import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos} from '../pics/photoarrays'
 /*this component also controls the lightbox*/
 function Lightbox(props) {
@@ -20,8 +21,10 @@ function Lightbox(props) {
       <Galrender iswhom={alphotos}/>
     );
   } else if (iswho === "designer1") {
-    return (
+    return ( <React.Fragment>
       <Galrender iswhom={d1photos}/>
+       <Testimonial />
+       </React.Fragment>
     );
   } else if (iswho === "designer2") {
     return (

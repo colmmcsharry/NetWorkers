@@ -8,7 +8,6 @@ import designer1 from '../../pics/designer1.jpg'
 import designer2 from '../../pics/designer2.jpeg'
 import designer3 from '../../pics/designer3.jpg'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import Section from '../../Section'
 
 
 class Designers extends React.Component {
@@ -145,6 +144,7 @@ class Designers extends React.Component {
               <figcaption> Alaina </figcaption>
             </figure>
           </div>
+
           <div className="Mypicsclass">
             <figure>
               <img
@@ -155,6 +155,7 @@ class Designers extends React.Component {
               <figcaption> Edward</figcaption>
             </figure>
           </div>
+
           <div className="Mypicsclass">
             <figure>
               <img

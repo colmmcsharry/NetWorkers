@@ -1,9 +1,5 @@
 import React from 'react'
-import Workergallery from '../builders/Workergallery.js'
-import prop1 from '../builders/Workergallery.js'
-import mark from '../../pics/mark.jpg'
-import bob from '../../pics/bob.jpg'
-import alan from '../../pics/alan.jpg'
+import Workergallery from '../occupations/Workergallery.js'
 import Bio from '../Bio.js'
 import accountant from '../../pics/accountant.jpeg'
 import accountant2 from '../../pics/accountant2.jpg'
@@ -36,3 +32,5 @@ export default Contact;
 //             blurb: "Hey I'm Mark and welcome to my bio"
 //           }}
 //         />,
+
+/*this is just an example of how I could have rendered each category. I just couldn't get the appropriate bios to load when click next slide this way*/
