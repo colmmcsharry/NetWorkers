@@ -5,6 +5,7 @@ import CGallery  from './components/CGallery'
 import About  from './components/Otherpgs/About.js'
 import Contact from  './components/Otherpgs/Contact.js'
 import  Designers  from './components/occupations/Designers.js'
+import  Accountants  from './components/occupations/Accountants.js'
 import Testpage from './Testpage'
 
 
@@ -18,6 +19,7 @@ export default [
             
             <Route key="builders" path="/builders" component={Builders} />,
             <Route key="designers" path="/designers" component={Designers} />,
+            <Route key="accountants" path="/accountants" component={Accountants} />,
             <Route key="testpage" path="/testpage" component={Testpage} />
 
             ]

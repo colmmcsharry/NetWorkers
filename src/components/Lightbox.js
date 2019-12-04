@@ -27,12 +27,16 @@ function Lightbox(props) {
        </React.Fragment>
     );
   } else if (iswho === "designer2") {
-    return (
+    return ( <React.Fragment>
       <Galrender iswhom={d2photos}/>
+      <Testimonial />
+       </React.Fragment>
     );
   } else if (iswho === "designer3") {
-    return (
+    return ( <React.Fragment>
       <Galrender iswhom={d3photos}/>
+      <Testimonial />
+       </React.Fragment>
     );
   }
 

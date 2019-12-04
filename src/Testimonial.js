@@ -34,10 +34,9 @@ return (
                 <FontAwesomeIcon icon="star" />
                 <FontAwesomeIcon icon="star"/>
                 <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
                                    </React.Fragment>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
+                
               </div>
 
               <p>
@@ -51,11 +50,11 @@ return (
               <img src={p2} alt="person2"/>
               <div className="name">Full name</div>
               <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="far fa-star"></i>
-                <i className="far fa-star"></i>
+                <FontAwesomeIcon icon="star" />
+                <FontAwesomeIcon icon="star" />
+                <FontAwesomeIcon icon="star"/>
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
               </div>
 
               <p>
@@ -69,11 +68,11 @@ return (
               <img src={p3} alt="person3"/>
               <div className="name">Full name</div>
               <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="far fa-star"></i>
+                <FontAwesomeIcon icon="star" />
+                <FontAwesomeIcon icon="star" />
+                <FontAwesomeIcon icon="star"/>
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
               </div>
 
               <p>

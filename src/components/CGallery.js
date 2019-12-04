@@ -90,7 +90,7 @@ class CGallery extends React.Component {
           </Link>
         </div>
         <div className="Mypicsclass">
-        <Link to="/about">
+        <Link to="/accountants">
           <figure>
             <img
               className="carimages"
