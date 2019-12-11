@@ -4,22 +4,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Bio(props) {
   return (
-    <div className="wholebio">
-    <ul style={{ fontWeight: "900" }}>
-      First Name : <span className="light">{props.bio.firstName}</span> <br />
-      Last Name : <span className="light"> {props.bio.lastName} </span>
-      <br />
-      Rating : {props.bio.rating} <br />
-      <FontAwesomeIcon icon="mobile-alt" /> : <span className="light"> {props.bio.phone}</span>
-      <br />
-      <FontAwesomeIcon icon="envelope" /> : <span className="light">{props.bio.email}</span>  
-      <br /> 
-      <div className="bouncercontainer"><Section /></div>
-      <br/>
-       <div className="blurbdiv"> {props.bio.blurb} </div>
-       <br />
+    <React.Fragment>
+    <ul className = "Biolist" >
+     <li> First Name : <span className="light">{props.bio.firstName}</span>  </li>
+      <li> Last Name : <span className="light"> {props.bio.lastName} </span></li>
+      <li> Rating : {props.bio.rating} </li>
+      <li> <FontAwesomeIcon icon="mobile-alt" /> : <span className="light"> {props.bio.phone}</span></li>
+      <li> <FontAwesomeIcon icon="envelope" /> : <span className="light">{props.bio.email}</span>  </li>
+      
+       
         </ul>
-        </div>
+        <div className="bouncercontainer"><Section /></div> 
+      
+       <div className="blurbdiv"> {props.bio.blurb} </div> 
+        </React.Fragment>
   );
 }
 

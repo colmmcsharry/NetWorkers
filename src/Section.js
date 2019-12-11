@@ -1,3 +1,5 @@
+/*this is the little scroll arrow component, it's called Section for some reason*/
+
 import React from 'react';
 import ReactDOM from "react-dom";
 import { render } from 'react-dom';
