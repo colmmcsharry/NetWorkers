@@ -30,7 +30,11 @@ class Designers extends React.Component {
           rating: "\u2B50 \u2B50",
           phone: "605 784 8001",
           email: "A.toop@alainadesign.com",
-          blurb: "Hey I'm Alaina and welcome to my bio"
+          blurb: ["Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time now, I love to use Photoshop and other things like that. It's awesome to get paid to express my creativity.",
+          " Sometimes I wish I could be a full time-artist, that's why I signed up with NetWorkers.",
+          <br/>, <br/>, 
+          "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time",
+          "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time"]
         }}
       />,
       document.getElementById("bioelement")
