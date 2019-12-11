@@ -5,6 +5,7 @@ import Builders from "./components/occupations/Builders";
 import Designers from "./components/occupations/Designers";
 import About from "./components/Otherpgs/About";
 import Contact from "./components/Otherpgs/Contact";
+import SocialFollow from './SocialFollow.js'
 import { BrowserRouter as HashRouter, Route, } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import routes from './routes.js'
@@ -16,6 +17,13 @@ import { faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, faStar
 import { faStar as fasFaStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as farFaStar } from '@fortawesome/free-regular-svg-icons'
 import { faAd } from '@fortawesome/free-solid-svg-icons'
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+
 
 
 
@@ -39,7 +47,7 @@ function App() {
           
         </div>
         
-      
+      <SocialFollow />
     </div>
 </HashRouter>
   )

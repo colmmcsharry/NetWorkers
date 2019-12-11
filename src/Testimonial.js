@@ -26,7 +26,7 @@ return (
           <div className="colum">
             <div className="testimonial">
               <img className="testimony" src={p1} alt="person1"/>
-              <div className="name">Full name</div>
+              <div className="name">Mark Johnson</div>
               <div className="stars">
               <React.Fragment>
                 
@@ -48,7 +48,7 @@ return (
           <div className="colum">
             <div className="testimonial">
               <img src={p2} alt="person2"/>
-              <div className="name">Full name</div>
+              <div className="name">Sarah Goldman</div>
               <div className="stars">
                 <FontAwesomeIcon icon="star" />
                 <FontAwesomeIcon icon="star" />
@@ -66,7 +66,7 @@ return (
           <div className="colum">
             <div className="testimonial">
               <img src={p3} alt="person3"/>
-              <div className="name">Full name</div>
+              <div className="name">Emily Waterson</div>
               <div className="stars">
                 <FontAwesomeIcon icon="star" />
                 <FontAwesomeIcon icon="star" />

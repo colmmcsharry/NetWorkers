@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
 
 /** {
 box-sizing: border-box;
@@ -17,10 +18,7 @@ div {
   text-align: center;
 }
 
-.light {
-  font-weight: 50;
-  color: black;
-}
+
 body {
   font-family: "Anton", sans-serif;
 
@@ -45,6 +43,8 @@ font-family: "Public Sans", sans-serif;
 }
 /*not sure if I need this class, is on all carousel images but not using it yet, except for font? */
 
+figcaption {}
+/*need to distinguish the names from the categories on the carousel*/
 
 .carimages {
   padding: 20px;
@@ -137,6 +137,9 @@ font-family: "Public Sans", sans-serif;
 }
 
 .Biolist {
+  font-family: 'EB Garamond', serif;
+  font-weight:500;
+  font-size:22px;
   display:inline-block;
   margin-bottom: 30px;
   padding:0;
@@ -145,7 +148,10 @@ font-family: "Public Sans", sans-serif;
 
 }
 
-
+.light {
+  font-weight:400;
+  opacity: .8;
+}
 
 .blurbdiv {
   font-family: 'Gelasio', serif;
@@ -165,8 +171,8 @@ font-family: "Public Sans", sans-serif;
 }
 
 
-
-
+.colum p {font-family: papyrus;}
+/*this is for the testimonials*/
 
 
 
@@ -214,7 +220,7 @@ bouncer {
 
 .mybasediv{
   margin: 0;
-  padding: 0;
+  padding-top: 150px;
   font-family: "montserrat",sans-serif;
   color:red;
 }
@@ -260,7 +266,8 @@ bouncer {
 }
 .name{
   font-size: 20px;
-  text-transform: uppercase;
+  font-family: courier new;
+  font-weight: 500;
   margin: 20px 0;
 }
 .stars{
@@ -287,7 +294,45 @@ bouncer {
 
 
 
+/* SOCIAL STUFF */
+.social-container {
+  background: #eee;
+  padding: 10px 50px;
+  margin-top: 150px;
+  font-family: "Public Sans", sans-serif;
+}
 
+.social-container h3 {
+  opacity: 0.8;
+  font-size:17px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+/*SOCIAL STUFF ENDS*/
 
 
 
