@@ -31,7 +31,14 @@ class Builders extends React.Component {
           rating: "\u2B50 \u2B50",
           phone: "605 784 8001",
           email: "Mark@gmail.com",
-          blurb: "Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project, Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project, Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project, Hey I'm Mark and welcome to my bio.Hey there, I'm Mark and I'd love to come and help with your building project,"
+          blurb: ["Hey there, I'm Mark and I'd love to come" , <br/>, 
+           "and help with your building project.", <br/>,
+           "I have over 20 years experience in the" , <br/>, 
+           "building industry, both commercial and residential.", <br/>, <br/>,
+
+            "I run my own company called LandMark Construction and we've built", <br/>,
+            "some of the most visually appealing houses in the neighbourhood",<br/>,
+            "Check out my portfolio and testimonals to see for yourself!" ]
            
         }}
       />,
@@ -65,9 +72,14 @@ class Builders extends React.Component {
             rating: "\u2B50 \u2B50",
             phone: "605 784 8001",
             email: "Mark@gmail.com",
-            blurb: ["Hey there, I'm Mark and I'd love to come and help with your building project.", <br/>, "I have over 20 years experience in the building industry,", <br/>,"both commercial and residential.", <br/>,
-            "I run my own company called LandMark Construction and we've", <br/>,"built some of the most visually appealing houses in the neighbourhood",<br/>,
-            "Check out my portfolio and testimonals to see for yourself!" ]
+            blurb: ["Hey there, I'm Mark and I'd love to come" , <br/>, 
+           "and help with your building project.", <br/>,
+           "I have over 20 years experience in the" , <br/>, 
+           "building industry, both commercial and residential.", <br/>, <br/>,
+           
+            "I run my own company called LandMark Construction and we've built", <br/>,
+            "some of the most visually appealing houses in the neighbourhood",<br/>,
+            "Check out my portfolio and testimonals to see for yourself!"  ]
           }}
         />,
         document.getElementById("bioelement")
@@ -105,7 +117,14 @@ class Builders extends React.Component {
             rating: "\u2B50 ",
             phone: "778 768 9982",
             email: "al@gmail.com",
-            blurb: "Hey I'm Al and welcome to my bio"
+            blurb: ["Hey there, I'm Mark and I'd love to come", <br/>, 
+           "and help with your building project.", <br/>,
+           "I have over 20 years experience in the" , <br/>, 
+           "building industry, both commercial and residential.", <br/>, <br/>,
+           
+            "I run my own company called LandMark Construction and we've built", <br/>,
+            "some of the most visually appealing houses in the neighbourhood",<br/>,
+            "Check out my portfolio and testimonals to see for yourself!"] 
           }}
         />,
         document.getElementById("bioelement")
