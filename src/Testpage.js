@@ -27,7 +27,6 @@ return (
 <Mybutton />
 	<Forms />
         
-<Testimonial/>
    </div>     
 )
 }

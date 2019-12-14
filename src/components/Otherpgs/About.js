@@ -12,10 +12,9 @@ return (
 	
 	
 	<div className="bouncer"> V </div>
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
-	<img src="https://tpm-inc.com/wp-content/uploads/under-construction-logo.gif" />
+
 	<div className="myverybot">here's the bottom</div>
+
 	<Element name="test1" className="element" >
             test 1
         </Element>

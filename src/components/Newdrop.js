@@ -38,12 +38,7 @@ export default class Newdrop extends React.Component {
           <DropdownItem><Link to="/">Chef</Link></DropdownItem>
           <DropdownItem><Link to="/testpage">Clown</Link></DropdownItem>
           <DropdownItem><Link to="/designers">Graphic Designer</Link></DropdownItem>
-          <DropdownItem><Link to="/">Painter</Link></DropdownItem>
-          <DropdownItem><Link to="/">Tattoo</Link></DropdownItem>
-          <DropdownItem><Link to="/">Web Dev</Link></DropdownItem>
-          
-         
-        </DropdownMenu>
+          </DropdownMenu>
       </Dropdown>
     );
   }
