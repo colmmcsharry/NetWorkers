@@ -11,6 +11,9 @@ border: green;
 
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom:10px;
 }
 
 div {
@@ -222,6 +225,7 @@ bouncer {
   padding-top: 150px;
   font-family: "montserrat",sans-serif;
   color:red;
+  margin-bottom:110px;
 }
 .testimonials{
   padding: 40px 0;
@@ -297,8 +301,12 @@ bouncer {
 .social-container {
   background: #eee;
   padding: 10px 50px;
-  margin-top: 150px;
+  
   font-family: "Public Sans", sans-serif;
+  position:absolute;
+  left:0;
+bottom:0;
+right:0;
 }
 
 .social-container h3 {
