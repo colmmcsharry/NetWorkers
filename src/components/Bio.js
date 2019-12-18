@@ -2,6 +2,7 @@ import React from "react";
 import Section from '../Section'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 function Bio(props) {
   return (
     <React.Fragment>
@@ -11,7 +12,9 @@ function Bio(props) {
       <li> Rating : {props.bio.rating} </li>
       <li> <FontAwesomeIcon icon="mobile-alt" /> : <span className="light"> {props.bio.phone}</span></li>
       <li> <FontAwesomeIcon icon="envelope" /> : <span className="light">{props.bio.email}</span>  </li>
-      
+      <li> {props.bio.socials}
+
+       </li>
        
         </ul>
         <div className="bouncercontainer"><Section /></div> 

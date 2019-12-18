@@ -21,7 +21,9 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faGithub,
+  faLinkedIn
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, fasFaStar, farFaStar)

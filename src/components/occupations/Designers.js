@@ -8,6 +8,15 @@ import designer1 from '../../pics/designer1.jpg'
 import designer2 from '../../pics/designer2.jpeg'
 import designer3 from '../../pics/designer3.jpg'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faGithub,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 
 class Designers extends React.Component {
@@ -30,11 +39,20 @@ class Designers extends React.Component {
           rating: "\u2B50 \u2B50",
           phone: "605 784 8001",
           email: "A.toop@alainadesign.com",
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        <a href="#"><FontAwesomeIcon icon={faTwitter} size="1x"/> </a>
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <a href="#"><FontAwesomeIcon icon={faGithub} size="1x"/> </a>
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,
           blurb: ["Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time now, I love to use Photoshop and other things like that. It's awesome to get paid to express my creativity.",
           " Sometimes I wish I could be a full time-artist, that's why I signed up with NetWorkers.",
           <br/>, <br/>, 
           "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time",
-          "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time"]
+          "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time"
+          ]
         }}
       />,
       document.getElementById("bioelement")
