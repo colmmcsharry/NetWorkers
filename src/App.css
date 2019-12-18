@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Itim|Open+Sans|Quicksand&display=swap');
 
 /** {
 box-sizing: border-box;
@@ -77,25 +78,22 @@ font-family: "Public Sans", sans-serif;
   margin-top: 80px;
 }
 
-/*
-.elementToFadeInAndOut {
-    width:200px;
-    height: 200px;
-    background: red;
-    -webkit-animation: fadeinout 4s linear forwards;
-    animation: fadeinout 4s linear forwards;
-    opacity: 0;
-    position: relative;
-    left: 300px;
+
+.Fader {
+  margin-top:100px;
+    display:inline-block;
+    width:70%;
+    color:#2e4c63;
+    font-family: 'Quicksand';
+    animation: fadeinout 4s linear infinite;
+    opacity: 0.2;
+    position: relative;   
 }
 
-@-webkit-keyframes fadeinout {
-  50% { opacity: 1; }
-}
 
 @keyframes fadeinout {
   50% { opacity: 1; }
-}*/
+}
 
 
 figcaption {}
