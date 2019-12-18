@@ -12,26 +12,15 @@ const CustomerForm = () => {
     <React.Fragment>
       <form>
         <div className="form-row">
-          <FormGroup className="col-md-4">
-            <Label for="inputEmail4">First Name</Label>
+          <FormGroup className="col-md-6">
+            <Label for="inputfirstname">First Name</Label>
             <Input type="text"  id="inputFirstName" placeholder="First Name"/>
           </FormGroup>
-          <FormGroup className="col-md-4">
-            <Label for="inputPassword4">Last Name</Label>
+          <FormGroup className="col-md-6">
+            <Label for="inputlastnamed4">Last Name</Label>
             <Input type="text"  id="inputLastName" placeholder="Last Name" autoComplete="off"/>
           </FormGroup>
-          <FormGroup className="col-md-4">
-            <Label for="inputState">Job Title</Label>
-            <Input type="select" name="select" id="inputJobTitle" >
-              <option>Choose...</option>
-              <option>Accountant</option>
-              <option>Builder</option>
-               <option>Chef</option>
-              <option>Clown</option>
-              <option>Graphic Designer</option>
-
-            </Input>
-          </FormGroup>
+          
         </div>
 
         <div className="form-row">

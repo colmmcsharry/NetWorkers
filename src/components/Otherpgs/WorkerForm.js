@@ -18,8 +18,9 @@ const WorkerForm = () => {
       <div className="workerprofile">
       <figure>
 
-        <img src="https://d2pnv7vfbsu458.cloudfront.net/assets/headshot-d2c2ea81a1e4bfaea56cc7569828e83d2c9a38b71c432b897c9395006bbd7db2.jpg"/> 
-        <figcaption><div className="profilecaption"><Input type="file" name="file" id="exampleFile" /></div></figcaption>
+        <img className="uploadprofilepic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/480px-Circle-icons-profile.svg.png"/> 
+        
+        <figcaption> <br/><div className="profilecaption"><Input type="file" name="file" id="exampleFile" /></div></figcaption>
         </figure>
         </div>
       
@@ -84,6 +85,7 @@ const WorkerForm = () => {
             <Input type="text"  id="inputZip"/>
           </FormGroup>
         </div>
+        <br />
         <FormGroup>
         <Label for="exampleFile">Media</Label>
         <FormText color="muted">
