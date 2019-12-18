@@ -72,7 +72,7 @@ class CGallery extends React.Component {
             />
 
             <figcaption>
-               Builders
+               Builder
             </figcaption>
           </figure>
           </Link>

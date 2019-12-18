@@ -24,13 +24,6 @@ import {
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
-
-
-
-// import { faStar } from '@fortawesome/free-regular-svg-icons';
-
-
-
 library.add(faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, fasFaStar, farFaStar)
 
 
@@ -55,5 +48,4 @@ function App() {
 
 
 export default App; 
-
-// <Galrender iswhom={Alphotos} />
+/*Gallerywrapper is purely just CSS  and with some padding, for the main content, the carousel, forms, etc. it keeps the footer in place too*/

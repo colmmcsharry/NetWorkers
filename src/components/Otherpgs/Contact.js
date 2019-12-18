@@ -6,10 +6,9 @@ import { Component, PropTypes } from 'react';
 class Contact extends Component {
    constructor(props) {
         super(props);
-    }
+this.props.state = {}
 
-
-
+}
     render() {
         return (
             <div> hellooo</div>

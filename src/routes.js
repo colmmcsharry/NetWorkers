@@ -8,11 +8,14 @@ import  Designers  from './components/occupations/Designers.js'
 import  Accountants  from './components/occupations/Accountants.js'
 import Testpage from './Testpage'
 import Login from './components/Otherpgs/Login'
+import Testimonial from './Testimonial.js'
 
 
 export default [
 
 <Route key="home" exact path="/" component={CGallery} />,
+			<Route key="mainhome" exact path="/MyWorkers" component={Testimonial} />,
+
          
             <Route key="about" path="/about" component={About} />,
             <Route key="login" path="/login" component={Login} />,
