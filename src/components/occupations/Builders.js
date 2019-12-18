@@ -50,20 +50,11 @@ class Builders extends React.Component {
     );
   }
 
-  onSlideChanged = e => this.setState({ currentIndex: e.item });
+  onSlideChanged = e => {this.setState({ currentIndex: e.item });
+  console.log("Item`s position after a change: ", e.item);
 
-  slideNext = () =>
-    this.setState({ currentIndex: this.state.currentIndex + 1 });
 
-  slidePrev = () =>
-    this.setState({ currentIndex: this.state.currentIndex - 1 });
-
-  thumbItem = (item, i) => <span onClick={() => this.slideTo(i)} />;
-
-  onSlideChange(e) {
-    console.log("Item`s position during a change: ", e.item);
-    if (e.item === 2) {
-      console.log("now its Mark");
+if (e.item === 0) {
       ReactDOM.render(
         <Bio
           bio={{
@@ -88,8 +79,7 @@ class Builders extends React.Component {
         <Lightbox iswho="Mark" />,
         document.getElementById("mybotelement")
       );
-    } else if (e.item === 0) {
-      console.log("now its Bob");
+    } else if (e.item === 1) {
       ReactDOM.render(
         <Bio
           bio={{
@@ -107,8 +97,7 @@ class Builders extends React.Component {
         <Lightbox iswho="Bob" />,
         document.getElementById("mybotelement")
       );
-    } else if (e.item === 1) {
-      console.log("now its Al");
+    } else if (e.item === 2) {
       ReactDOM.render(
         <Bio
           bio={{
@@ -117,12 +106,12 @@ class Builders extends React.Component {
             rating: "\u2B50 ",
             phone: "778 768 9982",
             email: "al@gmail.com",
-            blurb: ["Hey there, I'm Mark and I'd love to come", <br/>, 
+            blurb: ["Hey there, I'm Al and I'd love to come", <br/>, 
            "and help with your building project.", <br/>,
            "I have over 20 years experience in the" , <br/>, 
            "building industry, both commercial and residential.", <br/>, <br/>,
            
-            "I run my own company called LandMark Construction and we've built", <br/>,
+            "I run my own company called Big Al's and we've built", <br/>,
             "some of the most visually appealing houses in the neighbourhood",<br/>,
             "Check out my portfolio and testimonals to see for yourself!"] 
           }}
@@ -134,6 +123,27 @@ class Builders extends React.Component {
         document.getElementById("mybotelement")
       );
     }
+
+
+
+
+
+
+
+}
+
+
+  slideNext = () =>
+    this.setState({ currentIndex: this.state.currentIndex + 1 });
+
+  slidePrev = () =>
+    this.setState({ currentIndex: this.state.currentIndex - 1 });
+
+  thumbItem = (item, i) => <span onClick={() => this.slideTo(i)} />;
+
+  onSlideChange(e) {
+    console.log("Item`s position during a change: ", e.item);
+    
   }
 
   galleryItems() {
@@ -202,3 +212,5 @@ class Builders extends React.Component {
 }
 
 export default Builders;
+/*Mark = 0, Bob 1, Al 2*/
+

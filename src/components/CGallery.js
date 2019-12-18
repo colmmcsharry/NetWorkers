@@ -11,13 +11,13 @@ import designers from '../pics/designers.jpg'
 
 class CGallery extends React.Component {
   onSlideChange(e) {
-    console.log("Item`s position during a change: ", e.item);
-    console.log("Slide`s position during a change: ", e.slide);
+    console.log("ons Item`s position during a change: ", e.item);
+    console.log("ons Slide`s position during a change: ", e.slide);
   }
 
   onSlideChanged(e) {
-    console.log("Item`s position after changes: ", e.item);
-    console.log("Slide`s position after changes: ", e.slide);
+    console.log(" od Item`s position after changes: ", e.item);
+    console.log(" od Slide`s position after changes: ", e.slide);
   }
 
   render() {
