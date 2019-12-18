@@ -9,16 +9,22 @@ function Lightbox(props) {
   
 
   if (iswho === "Mark") {
-    return (
+    return (  <React.Fragment>
       <Galrender iswhom={markphotos}/>
+      <Testimonial name="Mark" />
+       </React.Fragment>
     );
   } else if (iswho === "Bob") {
-    return (
+    return ( <React.Fragment>
       <Galrender iswhom={bobphotos}/>
+      <Testimonial name="Bob"/>
+       </React.Fragment>
     );
   } else if (iswho === "Alan") {
-    return (
+    return ( <React.Fragment>
       <Galrender iswhom={alphotos}/>
+      <Testimonial />
+      </React.Fragment>
     );
   } else if (iswho === "designer1") {
     return ( <React.Fragment>

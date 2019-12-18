@@ -11,7 +11,7 @@ import  p3  from './pics/p3.png'
     // <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
 
-function Testimonial () {
+function Testimonial (props) {
 
 return (
 
@@ -40,7 +40,7 @@ return (
               </div>
 
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                So I have to say that {props.name} was really good. dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               </p>
             </div>
           </div>
