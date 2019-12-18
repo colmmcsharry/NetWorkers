@@ -2,15 +2,28 @@ import React from "react";
 
 import {
   FormGroup,
+  FormText,
   Label,
   Input,
-  Button
+  Button,
 } from "reactstrap";
+
+
 
 const WorkerForm = () => {
   return (
     <React.Fragment>
       <form>
+      
+      <div className="workerprofile">
+      <figure>
+
+        <img src="https://d2pnv7vfbsu458.cloudfront.net/assets/headshot-d2c2ea81a1e4bfaea56cc7569828e83d2c9a38b71c432b897c9395006bbd7db2.jpg"/> 
+        <figcaption><div className="profilecaption"><Input type="file" name="file" id="exampleFile" /></div></figcaption>
+        </figure>
+        </div>
+      
+      
         <div className="form-row">
           <FormGroup className="col-md-4">
             <Label for="inputEmail4">First Name</Label>
@@ -71,16 +84,31 @@ const WorkerForm = () => {
             <Input type="text"  id="inputZip"/>
           </FormGroup>
         </div>
-        <FormGroup check>
+        <FormGroup>
+        <Label for="exampleFile">Media</Label>
+        <FormText color="muted">
+          Upload a small portfolio of images or clips to show off your skills!
+        </FormText>
+           <div className="mediastuff">
+                <div className="mediaitem"><Input type="file" name="file" id="exampleFile" /></div>
+               <div className="mediaitem"><Input type="file" name="file" id="exampleFile" /></div>
+               <div className="mediaitem"><Input type="file" name="file" id="exampleFile" /></div>
+               <div className="mediaitem"><Input type="file" name="file" id="exampleFile" /></div>
+             </div>
+        
+      </FormGroup>
+      <br />
+<FormGroup check>
           <Label className="form-check-label">
               <Input className="form-check-input" type="checkbox" value=""/>
-              Check me out
+              I have read the Terms & Conditions 
               <span className="form-check-sign">
                 <span className="check"></span>
               </span>
           </Label>
-        </FormGroup>
-        <Button type="submit" color="primary">Sign in</Button>
+        </FormGroup> <br/>
+        <Button type="submit" color="success">Sign Up</Button>
+
       </form>
     </React.Fragment>
   );

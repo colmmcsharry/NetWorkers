@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import ReactDOM from "react-dom";
 import Testimonial from './Testimonial' 
-import WorkerForm from './WorkerForm.js'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Section from './Section.js';
 export { Workerbutton }  from './Testpage.js';
@@ -19,7 +18,7 @@ function Testpage() {
 )
 
  const Customerbutton = () => (
-    <button>I am a worker!</button>
+    <button>I am a Customer!</button>
 )
 
 
@@ -27,8 +26,8 @@ return (
 
 	
 <div>
- 
-	<WorkerForm />
+ 	<Workerbutton /> <span> <Customerbutton /> </span>
+
         
    </div>     
 )
