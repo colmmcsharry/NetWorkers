@@ -9,12 +9,12 @@ import  Accountants  from './components/occupations/Accountants.js'
 import Testpage from './Testpage'
 import Login from './components/Otherpgs/Login'
 import Testimonial from './Testimonial.js'
-
+import Welcome from './Welcome'
 
 export default [
 
 <Route key="home" exact path="/" component={CGallery} />,
-			<Route key="mainhome" exact path="/MyWorkers" component={Testimonial} />,
+			<Route key="mainhome" exact path="/MyWorkers" component={Welcome} />,
 
          
             <Route key="about" path="/about" component={About} />,
