@@ -11,7 +11,7 @@ import {
   faGithub,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
-export { AlainaBio, EdBio, FlorenceBio, Markbio, Bobbio, Albio }
+export { AlainaBio, EdBio, FlorenceBio, Markbio, Bobbio, Albio, JohnBio, BillBio, JillBio, BillyBio, BubbaBio, ColinBio }
 
 /*Designers*/
 
@@ -86,7 +86,7 @@ const FlorenceBio = {firstName: "Florence",
           email: "Mark@gmail.com",
           job: "builder",
           cost: "$20 p/hour",
-          blurb: 'blurb3',
+          blurb: 'blurb1',
           socials: <React.Fragment>
           <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
         
@@ -137,6 +137,116 @@ const Albio = {firstName: "Alan",
 
           }
 
+const JohnBio = {
+          firstName: "John",
+          lastName: "Gray",
+          rating: "\u2B50 \u2B50",
+          phone: "605 784 8001",
+          email: "JohnG@gmail.com",
+          job: "accountant",
+          cost: "$20 p/hour",
+          blurb: 'blurb1',
+          socials: <React.Fragment>
+          
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,   
+        } 
+
+const BillBio = {
+          firstName: "Bill",
+            lastName: "Smith",
+            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
+            phone: "086 779 0230",
+            email: "billS@gmail.com",
+            
+          job: "accountant",
+          cost: "$25 p/hour",
+          blurb: 'blurb2',
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+  
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,   
+        } 
+
+ const JillBio = {firstName: "Jill",
+            lastName: "Johnson",
+            rating: "\u2B50 ",
+            phone: "778 768 9982",
+            email: "JillyJ@gmail.com",
+            job: "accountant",
+          cost: "$35 p/hour",
+          blurb: 'blurb3',
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+  
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,  
 
 
+          }       
+
+
+const BillyBio = {
+          firstName: "Billy",
+          lastName: "Gray",
+          rating: "\u2B50 \u2B50",
+          phone: "605 784 8001",
+          email: "BillyG@gmail.com",
+          job: "clown",
+          cost: "$20 p/hour",
+          blurb: 'blurb1',
+          socials: <React.Fragment>
+          
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,   
+        } 
+
+const BubbaBio = {
+          firstName: "Bubba",
+            lastName: "Smith",
+            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
+            phone: "086 779 0230",
+            email: "bubbaS@gmail.com",
+            
+          job: "clown",
+          cost: "$25 p/hour",
+          blurb: 'blurb2',
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+  
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,   
+        } 
+
+ const ColinBio = {firstName: "Colin",
+            lastName: "Johnson",
+            rating: "\u2B50 ",
+            phone: "778 768 9982",
+            email: "CollyJ@gmail.com",
+            job: "clown",
+          cost: "$35 p/hour",
+          blurb: 'blurb3',
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+  
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,  
+
+
+          }                 
                   

@@ -5,15 +5,15 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
 import Bio from '../Bio.js'
-import accountant from '../../pics/accountant.jpeg'
-import accountant2 from '../../pics/accountant2.jpg'
-import accountant3 from '../../pics/accountant3.jpg'
+import clown from '../../pics/clown.jpg'
+import clown2 from '../../pics/clown2.jpeg'
+import clown3 from '../../pics/clown3.jpg'
 import {  Element  } from 'react-scroll'
-import { JohnBio, BillBio, JillBio } from './AllBios.js'
+import { BillyBio, BubbaBio, ColinBio } from './AllBios.js'
 
 
 
-class Accountants extends React.Component {
+class Clowns extends React.Component {
   items = [1, 2, 3, 4, 5];
 
   state = {
@@ -26,11 +26,11 @@ class Accountants extends React.Component {
 
   onInitialized(e) {
     ReactDOM.render(
-      <Bio bio={JohnBio} />,
+      <Bio bio={BillyBio} />,
       document.getElementById("bioelement")
     );
     ReactDOM.render(
-      <Lightbox iswho="John" />,
+      <Lightbox iswho="Billy" />,
       document.getElementById("mybotelement")
     );
   }
@@ -40,34 +40,34 @@ class Accountants extends React.Component {
 if (e.item === 0) {
       
       ReactDOM.render(
-        <Bio bio={JohnBio} />,
+        <Bio bio={BillyBio} />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="designer1" />,
+        <Lightbox iswho="Billy" />,
         document.getElementById("mybotelement")
       );
     } else if (e.item === 1) {
       
       ReactDOM.render(
         <Bio
-          bio={JillBio}
+          bio={BubbaBio}
         />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="Jill" />,
+        <Lightbox iswho="Bubba" />,
         document.getElementById("mybotelement")
       );
     } else if (e.item === 2) {
       
       ReactDOM.render(
         <Bio
-          bio={BillBio} />,
+          bio={ColinBio} />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="Bill" />,
+        <Lightbox iswho="Colin" />,
         document.getElementById("mybotelement")
       );
     }
@@ -114,10 +114,10 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                 src={accountant} alt="Alaina"
+                 src={clown} alt="Alaina"
             />
               
-              <figcaption> John </figcaption>
+              <figcaption> Bombastic Billy </figcaption>
             </figure>
           </div>
 
@@ -125,10 +125,10 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={accountant2} alt="Edward"
+                src={clown2} alt="Edward"
             />
               
-              <figcaption> Jill</figcaption>
+              <figcaption> Bubbly Bubba </figcaption>
             </figure>
           </div>
 
@@ -136,10 +136,10 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={accountant3} alt="Florence"
+                src={clown3} alt="Florence"
             />
               
-              <figcaption> Bill </figcaption>
+              <figcaption> Colly the Clown </figcaption>
             </figure>
           </div>
         </AliceCarousel>
@@ -155,4 +155,4 @@ if (e.item === 0) {
   }
 }
 
-export default Accountants;
+export default Clowns;

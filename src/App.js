@@ -5,7 +5,7 @@ import Builders from "./components/occupations/Builders";
 import Designers from "./components/occupations/Designers";
 import About from "./components/Otherpgs/About";
 import Contact from "./components/Otherpgs/Contact";
-import SocialFollow from './SocialFollow.js'
+import SocialFollow from './components/SocialFollow.js'
 import { BrowserRouter as HashRouter, Route, } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import routes from './routes.js'

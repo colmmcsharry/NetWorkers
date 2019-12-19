@@ -1,12 +1,12 @@
 
-import  p1  from './pics/p1.png'
-import  p2  from './pics/p2.png'
-import  p3  from './pics/p3.png'
-import  bob  from './pics/bob.jpg'
-import  accountant  from './pics/accountant.jpeg'
-import  chef2  from './pics/chef2.jpg'
-import  accountant3  from './pics/accountant3.jpg'
-import  chef4  from './pics/chef4.jpg'
+import  p1  from '../pics/p1.png'
+import  p2  from '../pics/p2.png'
+import  p3  from '../pics/p3.png'
+import  bob  from '../pics/bob.jpg'
+import  accountant  from '../pics/accountant.jpeg'
+import  chef2  from '../pics/chef2.jpg'
+import  accountant3  from '../pics/accountant3.jpg'
+import  chef4  from '../pics/chef4.jpg'
 export { names }
 export { pics }
 

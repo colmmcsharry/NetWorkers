@@ -168,3 +168,84 @@ export const bobphotos = [
     key: "hjj"
   }
 ];
+
+export const billyphotos = [
+  {
+    src:
+      "http://static1.businessinsider.com/image/5245b540ecad04ca3b8f0411-480/clown-car.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th?id=OIP.QEYb5vejbz1qJs67IO3KswHaFj&pid=Api&rs=1",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th?id=OIP.cjl68LaAA_0BY2qRjdhfugHaEr&pid=Api&rs=1",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "http://3.bp.blogspot.com/-YkrfQMgXQZQ/UVkmAY-h1zI/AAAAAAAACSc/o106TrsdYYo/s1600/Clown+For+Birthday+Party+(1).jpg",
+    width: 1,
+    height: 1
+  }
+];
+
+export const bubbaphotos = [
+  {
+    src:
+'https://s-media-cache-ak0.pinimg.com/600x315/60/3a/8d/603a8d797455fd286479a044fc4cb278.jpg',
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "http://c.allanandfriends.com/wp-content/uploads/2017/02/Clowns-Digi2.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://daisybrain.files.wordpress.com/2010/06/ap-photoeduardo-verdugo-mexico-city-july-18-2007-police-keep-an-eye-on-hundreds-of-clowns-paying-their-respects-to-the-virgin-of-guadalupe.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th?id=OIP.nBtrz-8djTjw0MSK3b-XXwHaJ4&pid=Api&rs=1",
+    width: 1,
+    height: 1
+  }
+];
+
+export const colinphotos = [
+  {
+    src:
+      "https://www.aboutfacesentertainment.com/files/images/27418.jpg?revision=481ab1375d202a2cf4fe29db3a61b0a4",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://2dbdd5116ffa30a49aa8-c03f075f8191fb4e60e74b907071aee8.ssl.cf1.rackcdn.com/10118919_1458765353.1166_funddescription.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://s-media-cache-ak0.pinimg.com/736x/82/ad/7c/82ad7ceb16c742dec3fad070211564c2--mariska-hargitay-happy-halloween.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2015/11/17/16/28/clown-1047828_960_720.jpg",
+    width: 1,
+    height: 1
+  }
+];

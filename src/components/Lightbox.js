@@ -1,8 +1,8 @@
 import React from "react";
 import Galrender from './Galrender'
-import Testimonial from '../Testimonial'
-import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos} from '../pics/photoarrays'
-import { pics2 } from '../names'
+import Testimonial from './Testimonial'
+import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos, billyphotos, bubbaphotos, colinphotos, } from '../pics/photoarrays'
+import { pics2 } from './names.js'
 /*this component also controls the lightbox*/
 function Lightbox(props) {
   const iswho = props.iswho;
@@ -47,7 +47,49 @@ function Lightbox(props) {
     );
   }
 
+else if (iswho === "John") {
+    return ( <React.Fragment>
+       <Testimonial name="John" job="accountant" cost="$20 p/hour" pronoun="she"/>
+       </React.Fragment>
+    );
+  } else if (iswho === "Jill") {
+    return ( <React.Fragment>
+      
+      <Testimonial name="Jill" job="accountant" cost="$25 p/hour" pronoun="she"/>
+       </React.Fragment>
+    );
+  } else if (iswho === "Bill") {
+    return ( <React.Fragment>
+      
+      <Testimonial name="Bill" job="accountant" cost="$35 p/hour" pronoun="he" />
+       </React.Fragment>
+    );
+  }  
+
+else if (iswho === "Billy") {
+    return (  <React.Fragment>
+      <Galrender iswhom={billyphotos}/>
+      <Testimonial name="Mark" job="clown" cost="$20 p/hour" pronoun="he" />
+       </React.Fragment>
+    );
+  } else if (iswho === "Bubba") {
+    return ( <React.Fragment>
+      <Galrender iswhom={bubbaphotos}/>
+      <Testimonial name="Bob" job="clown" cost="$25 p/hour" pronoun="he"/>
+       </React.Fragment>
+    );
+  } else if (iswho === "Colin") {
+    return ( <React.Fragment>
+      <Galrender iswhom={colinphotos}/>
+      <Testimonial name="Alan" job="clown" cost="$35 p/hour" pronoun="he"/>
+      </React.Fragment>
+    );
 }
+
+
+
+}
+
 export default Lightbox;
 
 

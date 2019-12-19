@@ -1,13 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
-import ReactDOM from "react-dom";
-import Testimonial from './Testimonial' 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Section from './Section.js';
-export { Workerbutton }  from './Testpage.js';
-export { Customerbutton }  from './Testpage.js';
-
-
 
 
 

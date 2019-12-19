@@ -4,12 +4,13 @@ import  Builders  from './components/occupations/Builders.js'
 import CGallery  from './components/CGallery'
 import About  from './components/Otherpgs/About.js'
 import Contact from  './components/Otherpgs/Contact.js'
+import  Clowns  from './components/occupations/Clowns.js'
 import  Designers  from './components/occupations/Designers.js'
 import  Accountants  from './components/occupations/Accountants.js'
-import Testpage from './Testpage'
+import Testpage from './components/Otherpgs/Testpage.js'
 import Login from './components/Otherpgs/Login'
-import Testimonial from './Testimonial.js'
-import Welcome from './Welcome'
+import Testimonial from './components/Testimonial.js'
+import Welcome from './components/Otherpgs/Welcome'
 
 export default [
 
@@ -19,7 +20,7 @@ export default [
          
             <Route key="about" path="/about" component={About} />,
             <Route key="login" path="/login" component={Login} />,
-            
+            <Route key="clowns" path="/clowns" component={Clowns} />,
             <Route key="builders" path="/builders" component={Builders} />,
             <Route key="designers" path="/designers" component={Designers} />,
             <Route key="accountants" path="/accountants" component={Accountants} />,
