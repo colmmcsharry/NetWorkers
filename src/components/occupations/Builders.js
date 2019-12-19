@@ -174,7 +174,7 @@ if (e.item === 0) {
                  src={mark} alt="Mark"
             />
               
-              <figcaption> Markoo </figcaption>
+              <figcaption> Mark </figcaption>
             </figure>
             
 
