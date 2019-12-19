@@ -22,6 +22,7 @@ export { AlainaBio, EdBio, FlorenceBio }
           phone: "605 784 8001",
           email: "A.toop@alainadesign.com",
           job: "designer",
+          cost: "$20 p/hour",
           blurb: "blurb1",
           socials: <React.Fragment>
           <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
@@ -41,6 +42,7 @@ export { AlainaBio, EdBio, FlorenceBio }
             phone: "086 779 0230",
             email: "eddys@gmail.com",
             job: "designer",
+            cost: "$25 p/hour",
             blurb: "blurb2",
             socials: <React.Fragment>
           <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
@@ -60,7 +62,8 @@ const FlorenceBio = {firstName: "Florence",
             phone: "778 768 9982",
             email: "florenceJ@gmail.com",
             job: "designer",
-            blurb:"blurb2",
+            cost: "$35 p/hour",
+            blurb:"blurb3",
             socials: <React.Fragment>
           <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
         <a href="#"><FontAwesomeIcon icon={faTwitter} size="1x"/> </a>
