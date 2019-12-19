@@ -44,11 +44,11 @@ class Login extends React.Component {
             Already have an account? Log in here  <br/><br/>
                 <div className="form-row">
 
-          <FormGroup className="col-md-6">
+          <FormGroup className="col-sm-6">
             <Label for="inputEmail4">Email</Label>
             <Input type="email"  id="inputEmail4" placeholder="Email"/>
           </FormGroup>
-          <FormGroup className="col-md-6">
+          <FormGroup className="col-sm-6">
             <Label for="inputPassword4">Password</Label>
             <Input type="password"  id="inputPassword4" placeholder="Password" autoComplete="off"/>
           </FormGroup>
