@@ -7,8 +7,8 @@ import Bio from "../Bio";
 import mark from '../../pics/mark.jpg'
 import bob from '../../pics/bob.jpg'
 import alan from '../../pics/alan.jpg'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import Section from '../../Section.js'
+import { Element } from 'react-scroll'
+import { Markbio, Bobbio, Albio } from './AllBios.js'
 
 
 class Builders extends React.Component {
@@ -25,22 +25,7 @@ class Builders extends React.Component {
   onInitialized(e) {
     ReactDOM.render(
       <Bio
-        bio={{
-          firstName: "Mark",
-          lastName: "Doe",
-          rating: "\u2B50 \u2B50",
-          phone: "605 784 8001",
-          email: "Mark@gmail.com",
-          blurb: ["Hey there, I'm Mark and I'd love to come" , <br/>, 
-           "and help with your building project.", <br/>,
-           "I have over 20 years experience in the" , <br/>, 
-           "building industry, both commercial and residential.", <br/>, <br/>,
-
-            "I run my own company called LandMark Construction and we've built", <br/>,
-            "some of the most visually appealing houses in the neighbourhood",<br/>,
-            "Check out my portfolio and testimonals to see for yourself!" ]
-           
-        }}
+        bio={Markbio}
       />,
       document.getElementById("bioelement")
     );
@@ -53,25 +38,10 @@ class Builders extends React.Component {
   onSlideChanged = e => {this.setState({ currentIndex: e.item });
   console.log("Item`s position after a change: ", e.item);
 
-
 if (e.item === 0) {
       ReactDOM.render(
         <Bio
-          bio={{
-            firstName: "Mark",
-            lastName: "Doe",
-            rating: "\u2B50 \u2B50",
-            phone: "605 784 8001",
-            email: "Mark@gmail.com",
-            blurb: ["Hey there, I'm Mark and I'd love to come" , <br/>, 
-           "and help with your building project.", <br/>,
-           "I have over 20 years experience in the" , <br/>, 
-           "building industry, both commercial and residential.", <br/>, <br/>,
-           
-            "I run my own company called LandMark Construction and we've built", <br/>,
-            "some of the most visually appealing houses in the neighbourhood",<br/>,
-            "Check out my portfolio and testimonals to see for yourself!"  ]
-          }}
+          bio={Markbio}
         />,
         document.getElementById("bioelement")
       );
@@ -82,14 +52,9 @@ if (e.item === 0) {
     } else if (e.item === 1) {
       ReactDOM.render(
         <Bio
-          bio={{
-            firstName: "Bob",
-            lastName: "Smith",
-            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
-            phone: "086 779 0230",
-            email: "bob@gmail.com",
-            blurb: "Hey I'm Bob and welcome to my bio"
-          }}
+          bio={Bobbio
+            
+          }
         />,
         document.getElementById("bioelement")
       );
@@ -100,21 +65,9 @@ if (e.item === 0) {
     } else if (e.item === 2) {
       ReactDOM.render(
         <Bio
-          bio={{
-            firstName: "Alan",
-            lastName: "Johnson",
-            rating: "\u2B50 ",
-            phone: "778 768 9982",
-            email: "al@gmail.com",
-            blurb: ["Hey there, I'm Al and I'd love to come", <br/>, 
-           "and help with your building project.", <br/>,
-           "I have over 20 years experience in the" , <br/>, 
-           "building industry, both commercial and residential.", <br/>, <br/>,
-           
-            "I run my own company called Big Al's and we've built", <br/>,
-            "some of the most visually appealing houses in the neighbourhood",<br/>,
-            "Check out my portfolio and testimonals to see for yourself!"] 
-          }}
+          bio={Albio
+            
+            }
         />,
         document.getElementById("bioelement")
       );
@@ -123,12 +76,6 @@ if (e.item === 0) {
         document.getElementById("mybotelement")
       );
     }
-
-
-
-
-
-
 
 }
 

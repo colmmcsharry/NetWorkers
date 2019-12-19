@@ -1,14 +1,8 @@
 import React from 'react';
-import { render } from 'react-dom';
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from '@fortawesome/free-regular-svg-icons'
-import  p1  from './pics/p1.png'
-import  p2  from './pics/p2.png'
-import  p3  from './pics/p3.png'
 import { names } from './names'
 import { pics } from './names'
-import { pics2 } from './names'
 
     // <meta name="viewport" content="width=device-width, initial-scale=1">
     // <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -25,7 +19,6 @@ var randompic = pics[[Math.floor(Math.random()*pics.length)]]
 var randompic2 = pics[[Math.floor(Math.random()*pics.length)]]
  var randompic3 = pics[[Math.floor(Math.random()*pics.length)]]
 
- var randompic4 = pics2[[Math.floor(Math.random()*pics2.length)]]
 
 
 
@@ -78,7 +71,7 @@ return (
 
               <p>
                 I can honestly say that {props.name} was a really reliable and hardworking {props.job}. {props.pronoun} was always on time and showed up motivated and eager to work.
-                <br/> <br/> {props.pronoun} is very affordable at just {props.cost} and I'm sure you'll think it's money well spent. 
+                <br/> <br/> {props.pronoun} is very affordable at just {props.cost} and I'm sure you'll think it's money well spent. Would hire again for sure.
                  
               </p>
             </div>
@@ -86,7 +79,7 @@ return (
 
           <div className="colum">
             <div className="testimonial">
-              <img src={randompic4} alt="person3"/>
+              <img src={randompic3} alt="person3"/>
               <div className="name">{name3}</div>
               <div className="stars">
                 <FontAwesomeIcon icon="star" />

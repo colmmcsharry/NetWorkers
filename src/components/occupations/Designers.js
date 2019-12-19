@@ -7,16 +7,7 @@ import Bio from "../Bio";
 import designer1 from '../../pics/designer1.jpg'
 import designer2 from '../../pics/designer2.jpeg'
 import designer3 from '../../pics/designer3.jpg'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faYoutube,
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faGithub,
-  faLinkedin
-} from "@fortawesome/free-brands-svg-icons";
+import {  Element  } from 'react-scroll'
 import { AlainaBio, EdBio, FlorenceBio } from './AllBios.js'
 
 
@@ -43,19 +34,9 @@ class Designers extends React.Component {
     );
   }
 
-  onSlideChanged = e => this.setState({ currentIndex: e.item });
+  onSlideChanged = e => {this.setState({ currentIndex: e.item });
 
-  slideNext = () =>
-    this.setState({ currentIndex: this.state.currentIndex + 1 });
-
-  slidePrev = () =>
-    this.setState({ currentIndex: this.state.currentIndex - 1 });
-
-  thumbItem = (item, i) => <span onClick={() => this.slideTo(i)} />;
-
-  onSlideChange(e) {
-    console.log("Item`s position during a change: ", e.item);
-    if (e.item === 2) {
+if (e.item === 0) {
       console.log("now its Alaina");
       ReactDOM.render(
         <Bio bio={AlainaBio} />,
@@ -65,7 +46,7 @@ class Designers extends React.Component {
         <Lightbox iswho="designer1" />,
         document.getElementById("mybotelement")
       );
-    } else if (e.item === 0) {
+    } else if (e.item === 1) {
       console.log("now its Edward");
       ReactDOM.render(
         <Bio
@@ -77,7 +58,7 @@ class Designers extends React.Component {
         <Lightbox iswho="designer2" />,
         document.getElementById("mybotelement")
       );
-    } else if (e.item === 1) {
+    } else if (e.item === 2) {
       console.log("now its Florence");
       ReactDOM.render(
         <Bio
@@ -89,6 +70,22 @@ class Designers extends React.Component {
         document.getElementById("mybotelement")
       );
     }
+
+
+
+}
+
+  slideNext = () =>
+    this.setState({ currentIndex: this.state.currentIndex + 1 });
+
+  slidePrev = () =>
+    this.setState({ currentIndex: this.state.currentIndex - 1 });
+
+  thumbItem = (item, i) => <span onClick={() => this.slideTo(i)} />;
+
+  onSlideChange(e) {
+    console.log("Item`s position during a change: ", e.item);
+    
   }
 
   galleryItems() {

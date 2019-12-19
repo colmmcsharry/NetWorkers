@@ -229,7 +229,7 @@ form {margin-bottom:300px;}
 }
 
 #blurbdiv {
-  font-family: 'Gelasio', serif;
+  font-family: 'itim', serif;
   width: 50%;
   display:inline-block;
   margin:60px 0px;
@@ -335,6 +335,7 @@ bouncer {
   background: #fff;
   padding: 30px;
 }
+
 .testimonial img{
   width: 100px;
   height: 100px;
@@ -449,8 +450,9 @@ padding-right: 0px;
 margin:0px 00px;
 }
 
-.blurbdiv {
+#blurbdiv {
   width:70%;
+  font-size: .8 rem;
 } 
 
 
@@ -477,6 +479,7 @@ margin:0px 00px;
   list-style-type: none;
 
 }
+
 
 .mediastuff {
   margin-left:50px;
