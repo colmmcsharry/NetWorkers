@@ -1,7 +1,7 @@
 import React from "react";
 import Galrender from './Galrender'
 import Testimonial from './Testimonial'
-import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos, billyphotos, bubbaphotos, colinphotos, } from '../pics/photoarrays'
+import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos, billyphotos, bubbaphotos, colinphotos, gordonphotos, curtisphotos, jackphotos } from '../pics/photoarrays'
 import { pics2 } from './names.js'
 /*this component also controls the lightbox*/
 function Lightbox(props) {
@@ -69,19 +69,40 @@ else if (iswho === "John") {
 else if (iswho === "Billy") {
     return (  <React.Fragment>
       <Galrender iswhom={billyphotos}/>
-      <Testimonial name="Mark" job="clown" cost="$20 p/hour" pronoun="he" />
+      <Testimonial name="Billy" job="clown" cost="$20 p/hour" pronoun="he" />
        </React.Fragment>
     );
   } else if (iswho === "Bubba") {
     return ( <React.Fragment>
       <Galrender iswhom={bubbaphotos}/>
-      <Testimonial name="Bob" job="clown" cost="$25 p/hour" pronoun="he"/>
+      <Testimonial name="Bubba" job="clown" cost="$25 p/hour" pronoun="he"/>
        </React.Fragment>
     );
   } else if (iswho === "Colin") {
     return ( <React.Fragment>
       <Galrender iswhom={colinphotos}/>
-      <Testimonial name="Alan" job="clown" cost="$35 p/hour" pronoun="he"/>
+      <Testimonial name="Colin" job="clown" cost="$35 p/hour" pronoun="he"/>
+      </React.Fragment>
+    );
+}
+
+
+else if (iswho === "Gordon") {
+    return (  <React.Fragment>
+      <Galrender iswhom={gordonphotos}/>
+      <Testimonial name="Gordon" job="chef" cost="$20 p/hour" pronoun="he" />
+       </React.Fragment>
+    );
+  } else if (iswho === "Curtis") {
+    return ( <React.Fragment>
+      <Galrender iswhom={curtisphotos}/>
+      <Testimonial name="Curtis" job="chef" cost="$25 p/hour" pronoun="he"/>
+       </React.Fragment>
+    );
+  } else if (iswho === "Jack") {
+    return ( <React.Fragment>
+      <Galrender iswhom={jackphotos}/>
+      <Testimonial name="Jack" job="chef" cost="$35 p/hour" pronoun="he"/>
       </React.Fragment>
     );
 }

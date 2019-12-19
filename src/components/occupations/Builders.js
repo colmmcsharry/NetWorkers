@@ -36,7 +36,7 @@ class Builders extends React.Component {
   }
 
   onSlideChanged = e => {this.setState({ currentIndex: e.item });
-  console.log("Item`s position after a change: ", e.item);
+  
 
 if (e.item === 0) {
       ReactDOM.render(
@@ -89,7 +89,7 @@ if (e.item === 0) {
   thumbItem = (item, i) => <span onClick={() => this.slideTo(i)} />;
 
   onSlideChange(e) {
-    console.log("Item`s position during a change: ", e.item);
+    
     
   }
 

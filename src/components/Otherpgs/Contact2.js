@@ -1,5 +1,4 @@
 import React from 'react'
-import Workergallery from '../occupations/Workergallery.js'
 import Bio from '../Bio.js'
 import accountant from '../../pics/accountant.jpeg'
 import accountant2 from '../../pics/accountant2.jpg'
@@ -11,8 +10,6 @@ function Contact2() {
 return (
 	<React.Fragment>
 	<h1>Contact</h1> 
-	<Workergallery caption1="Marco" caption2="BigBob" caption3="Alain"
-	profilepic1={accountant} profilepic2={accountant2} profilepic3={accountant3} whoseprofile="Mark"/> 
 	
 	</React.Fragment>
 	)

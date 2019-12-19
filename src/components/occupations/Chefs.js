@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 import ReactDOM from "react-dom";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
-import Bio from "../Bio";
-import designer1 from '../../pics/designer1.jpg'
-import designer2 from '../../pics/designer2.jpeg'
-import designer3 from '../../pics/designer3.jpg'
+import Bio from '../Bio.js'
+import chef from '../../pics/chef.jpg'
+import chef2 from '../../pics/chef2.jpg'
+import chef4 from '../../pics/chef4.jpg'
 import {  Element  } from 'react-scroll'
-import { AlainaBio, EdBio, FlorenceBio } from './AllBios.js'
+import { GordonBio, CurtisBio, JackBio } from './AllBios.js'
 
 
 
-class Designers extends React.Component {
+class Chefs extends React.Component {
   items = [1, 2, 3, 4, 5];
 
   state = {
@@ -25,11 +25,11 @@ class Designers extends React.Component {
 
   onInitialized(e) {
     ReactDOM.render(
-      <Bio bio={AlainaBio} />,
+      <Bio bio={GordonBio} />,
       document.getElementById("bioelement")
     );
     ReactDOM.render(
-      <Lightbox iswho="designer1" />,
+      <Lightbox iswho="Gordon" />,
       document.getElementById("mybotelement")
     );
   }
@@ -39,34 +39,34 @@ class Designers extends React.Component {
 if (e.item === 0) {
       
       ReactDOM.render(
-        <Bio bio={AlainaBio} />,
+        <Bio bio={GordonBio} />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="designer1" />,
+        <Lightbox iswho="Gordon" />,
         document.getElementById("mybotelement")
       );
     } else if (e.item === 1) {
       
       ReactDOM.render(
         <Bio
-          bio={EdBio}
+          bio={CurtisBio}
         />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="designer2" />,
+        <Lightbox iswho="Curtis" />,
         document.getElementById("mybotelement")
       );
     } else if (e.item === 2) {
       
       ReactDOM.render(
         <Bio
-          bio={ FlorenceBio }/>,
+          bio={JackBio} />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="designer3" />,
+        <Lightbox iswho="Jack" />,
         document.getElementById("mybotelement")
       );
     }
@@ -113,10 +113,10 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                 src={designer1} alt="Alaina"
+                 src={chef} alt="Alaina"
             />
               
-              <figcaption> Alaina </figcaption>
+              <figcaption>  Gordon </figcaption>
             </figure>
           </div>
 
@@ -124,10 +124,10 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={designer2} alt="Edward"
+                src={chef2} alt="Edward"
             />
               
-              <figcaption> Edward</figcaption>
+              <figcaption> Curtis </figcaption>
             </figure>
           </div>
 
@@ -135,10 +135,10 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={designer3} alt="Florence"
+                src={chef4} alt="Florence"
             />
               
-              <figcaption> Florence </figcaption>
+              <figcaption> Juicy Jack </figcaption>
             </figure>
           </div>
         </AliceCarousel>
@@ -154,4 +154,4 @@ if (e.item === 0) {
   }
 }
 
-export default Designers;
+export default Chefs;

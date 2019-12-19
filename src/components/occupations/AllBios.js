@@ -11,7 +11,7 @@ import {
   faGithub,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
-export { AlainaBio, EdBio, FlorenceBio, Markbio, Bobbio, Albio, JohnBio, BillBio, JillBio, BillyBio, BubbaBio, ColinBio }
+export { AlainaBio, EdBio, FlorenceBio, Markbio, Bobbio, Albio, JohnBio, BillBio, JillBio, BillyBio, BubbaBio, ColinBio, GordonBio, CurtisBio, JackBio }
 
 /*Designers*/
 
@@ -249,4 +249,59 @@ const BubbaBio = {
 
 
           }                 
-                  
+               
+const GordonBio = {
+          firstName: "Gordon",
+          lastName: "Gray",
+          rating: "\u2B50 \u2B50",
+          phone: "605 784 8001",
+          email: "GordonG@gmail.com",
+          job: "chef",
+          cost: "$20 p/hour",
+          blurb: 'blurb1',
+          socials: <React.Fragment>
+          
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,   
+        } 
+
+const CurtisBio = {
+          firstName: "Curtis",
+            lastName: "Smith",
+            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
+            phone: "086 779 0230",
+            email: "CurtisS@gmail.com",
+            
+          job: "chef",
+          cost: "$25 p/hour",
+          blurb: 'blurb2',
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+  
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,   
+        } 
+
+ const JackBio = {firstName: "Jack",
+            lastName: "Johnson",
+            rating: "\u2B50 ",
+            phone: "778 768 9982",
+            email: "JJohnson@gmail.com",
+            job: "chef",
+          cost: "$35 p/hour",
+          blurb: 'blurb3',
+          socials: <React.Fragment>
+          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
+        
+        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+  
+        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
+
+        </React.Fragment>,  
+
+
+          }                        

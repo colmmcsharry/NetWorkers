@@ -33,11 +33,11 @@ export default class Newdrop extends React.Component {
         </DropdownToggle>
         <DropdownMenu >
           <DropdownItem><Link to="/accountants">Accountant</Link></DropdownItem>
-          <DropdownItem><Link to="/">Barber</Link></DropdownItem>
           <DropdownItem><Link to="/builders">Builder</Link></DropdownItem>
-          <DropdownItem><Link to="/">Chef</Link></DropdownItem>
+          <DropdownItem><Link to="/chefs">Chef</Link></DropdownItem>
           <DropdownItem><Link to="/clowns">Clown</Link></DropdownItem>
           <DropdownItem><Link to="/designers">Graphic Designer</Link></DropdownItem>
+          <DropdownItem>More coming soon!</DropdownItem>
           </DropdownMenu>
       </Dropdown>
     );

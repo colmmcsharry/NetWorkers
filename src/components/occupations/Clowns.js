@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from "react-dom";
-import Workergallery from '../occupations/Workergallery.js'
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
@@ -85,7 +84,7 @@ if (e.item === 0) {
   thumbItem = (item, i) => <span onClick={() => this.slideTo(i)} />;
 
   onSlideChange(e) {
-    console.log("Item`s position during a change: ", e.item);
+    
     
   }
 

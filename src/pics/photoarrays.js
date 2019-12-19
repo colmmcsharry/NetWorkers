@@ -83,6 +83,8 @@ export const d2photos = [
   }
 ];
 
+/*Builder begins*/
+
 export const markphotos = [
   {
     src:
@@ -169,6 +171,9 @@ export const bobphotos = [
   }
 ];
 
+
+/*Clown begins*/
+
 export const billyphotos = [
   {
     src:
@@ -245,6 +250,92 @@ export const colinphotos = [
   {
     src:
       "https://cdn.pixabay.com/photo/2015/11/17/16/28/clown-1047828_960_720.jpg",
+    width: 1,
+    height: 1
+  }
+];
+
+
+
+
+/*Chef begins*/
+
+export const gordonphotos = [
+  {
+    src:
+      "https://www.rd.com/wp-content/uploads/2012/12/13-TV-chef-secrets-02-gourmet-food-sl.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://media.salon.com/2017/09/chef-plate.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.XZnu8I8VtAmba4lYm2YoYAHaLI?w=115&h=171&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.h1y5p43hGh-TPltfxWfQ9wHaE6?w=230&h=160&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  }
+];
+
+export const curtisphotos = [
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.v2g_u7y216PQz2bk3N3xQwHaFj?w=237&h=178&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.-1x-uwpruHbTGjC4LTc11AHaEK?w=300&h=168&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "http://4.bp.blogspot.com/-k_eTkvHB86c/UHWlV4_FcTI/AAAAAAAABWg/TQHEZ-TK4As/s400/hunter-beef-recipe.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.arpvIUaivj_g_aTESZIQ7gAAAA?w=216&h=202&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  }
+];
+
+export const jackphotos = [
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.R_2mk9j7vi_Yg1r53WeP_wHaHa?w=205&h=195&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.TB74OuXCrEBeCkQrsH22xwHaEj?w=300&h=184&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.osPWpMLvVDKnVmcok1Km-gHaE6?w=222&h=172&c=7&o=5&dpr=2&pid=1.7",
+    width: 1,
+    height: 1
+  },
+  {
+    src:
+      "https://www.bing.com/th/id/OIP.LM3uGtmH9ACgHieeSu_ivAHaFj?w=229&h=172&c=7&o=5&dpr=2&pid=1.7",
     width: 1,
     height: 1
   }
