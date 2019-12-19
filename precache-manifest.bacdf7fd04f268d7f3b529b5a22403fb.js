@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "414089dfdfd72a598402b5ff36aa505e",
+    "revision": "753711fd501baa6b82363e03d413f1ea",
     "url": "/MyWorkers/index.html"
   },
   {
-    "revision": "0f9bcc0f49501cc47c53",
+    "revision": "2bb24c85406131a65e4b",
     "url": "/MyWorkers/static/css/2.53ce9653.chunk.css"
   },
   {
-    "revision": "a64c4de5768af8b34195",
-    "url": "/MyWorkers/static/css/main.45703772.chunk.css"
+    "revision": "9f0e10c484bc3c257fb7",
+    "url": "/MyWorkers/static/css/main.4df6c16c.chunk.css"
   },
   {
-    "revision": "0f9bcc0f49501cc47c53",
-    "url": "/MyWorkers/static/js/2.8a2b821a.chunk.js"
+    "revision": "2bb24c85406131a65e4b",
+    "url": "/MyWorkers/static/js/2.02d44ec0.chunk.js"
   },
   {
-    "revision": "a64c4de5768af8b34195",
-    "url": "/MyWorkers/static/js/main.1e91927a.chunk.js"
+    "revision": "9f0e10c484bc3c257fb7",
+    "url": "/MyWorkers/static/js/main.a1be9a21.chunk.js"
   },
   {
     "revision": "6711a85193681e877a5f",
@@ -52,8 +52,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyWorkers/static/media/builders.1f256c7d.jpg"
   },
   {
+    "revision": "7362eca73c280ab7d41fd448b1224025",
+    "url": "/MyWorkers/static/media/chef.7362eca7.jpg"
+  },
+  {
+    "revision": "6e78d5aa6b69d1e3a90a10def93fea8a",
+    "url": "/MyWorkers/static/media/chef2.6e78d5aa.jpg"
+  },
+  {
+    "revision": "171678a8712bb29453643207653b25b9",
+    "url": "/MyWorkers/static/media/chef4.171678a8.jpg"
+  },
+  {
     "revision": "2b895680f83a541768d3a3eec9ddd48b",
     "url": "/MyWorkers/static/media/chefs.2b895680.jpg"
+  },
+  {
+    "revision": "50d81cf60d7bac59e17169059bc51faa",
+    "url": "/MyWorkers/static/media/clown.50d81cf6.jpg"
+  },
+  {
+    "revision": "4fa7c3bfbe55bfc89630f5a6f1b5870c",
+    "url": "/MyWorkers/static/media/clown2.4fa7c3bf.jpeg"
+  },
+  {
+    "revision": "440ab275339b0b8274d88c048e7de64f",
+    "url": "/MyWorkers/static/media/clown3.440ab275.jpg"
   },
   {
     "revision": "5b7ed13c88d6c525262692db5ae8bca1",
