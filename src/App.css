@@ -229,11 +229,12 @@ form {margin-bottom:300px;}
   opacity: .8;
 }
 
-.blurbdiv {
+#blurbdiv {
   font-family: 'Gelasio', serif;
   width: 50%;
   display:inline-block;
   margin:60px 0px;
+  color:black;
 }
 
 

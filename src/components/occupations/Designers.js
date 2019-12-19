@@ -17,6 +17,8 @@ import {
   faGithub,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
+import { AlainaBio, EdBio, FlorenceBio } from './AllBios.js'
+
 
 
 class Designers extends React.Component {
@@ -32,29 +34,7 @@ class Designers extends React.Component {
 
   onInitialized(e) {
     ReactDOM.render(
-      <Bio
-        bio={{
-          firstName: "Alaina",
-          lastName: "Toop",
-          rating: "\u2B50 \u2B50",
-          phone: "605 784 8001",
-          email: "A.toop@alainadesign.com",
-          socials: <React.Fragment>
-          <a href="#"><FontAwesomeIcon icon={faFacebook} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faTwitter} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faGithub} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} size="1x"/> </a>
-
-        </React.Fragment>,
-          blurb: ["Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time now, I love to use Photoshop and other things like that. It's awesome to get paid to express my creativity.",
-          " Sometimes I wish I could be a full time-artist, that's why I signed up with NetWorkers.",
-          <br/>, <br/>, 
-          "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time",
-          "Hey I'm Alaina and welcome to my bio, I've been an artist and graphic designer for a long time"
-          ]
-        }}
-      />,
+      <Bio bio={AlainaBio} />,
       document.getElementById("bioelement")
     );
     ReactDOM.render(
@@ -78,16 +58,7 @@ class Designers extends React.Component {
     if (e.item === 2) {
       console.log("now its Alaina");
       ReactDOM.render(
-        <Bio
-          bio={{
-            firstName: "Alaina",
-          lastName: "Toop",
-          rating: "\u2B50 \u2B50",
-          phone: "605 784 8001",
-          email: "A.toop@alainadesign.com",
-          blurb: "Hey I'm Alaina and welcome to my bio"
-          }}
-        />,
+        <Bio bio={AlainaBio} />,
         document.getElementById("bioelement")
       );
       ReactDOM.render(
@@ -98,14 +69,7 @@ class Designers extends React.Component {
       console.log("now its Edward");
       ReactDOM.render(
         <Bio
-          bio={{
-            firstName: "Edward",
-            lastName: "Smith",
-            rating: "\u2B50 \u2B50 \u2B50 \u2B50",
-            phone: "086 779 0230",
-            email: "eddys@gmail.com",
-            blurb: "Hey I'm Eddy and welcome to my bio"
-          }}
+          bio={EdBio}
         />,
         document.getElementById("bioelement")
       );
@@ -117,15 +81,7 @@ class Designers extends React.Component {
       console.log("now its Florence");
       ReactDOM.render(
         <Bio
-          bio={{
-            firstName: "Florence",
-            lastName: "Johnson",
-            rating: "\u2B50 ",
-            phone: "778 768 9982",
-            email: "florenceJ@gmail.com",
-            blurb: "Hey I'm Florence and welcome to my bio"
-          }}
-        />,
+          bio={ FlorenceBio }/>,
         document.getElementById("bioelement")
       );
       ReactDOM.render(

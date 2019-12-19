@@ -1,9 +1,35 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import Section from '../Section'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+      
 
 function Bio(props) {
+
+
+if (props.bio.blurb === "blurb1") {
+  var blaahh = "hello"}
+
+  else if (props.bio.blurb === "blurb2")
+    {var blaahh = "hey"}
+
+/*
+    if (props.bio.blurb === "blurb1") { 
+      ReactDOM.render(
+        <div> hellooo it's { props.bio.firstName } and I'm the  best { props.bio.job } </div>,
+        document.getElementById("blurbdiv")
+      );
+    
+} else if (props.bio.blurb === "blurb2") { 
+      ReactDOM.render(
+        <div> hi i'm { props.bio.firstName } and I'm the  best { props.bio.job } </div>,
+        document.getElementById("blurbdiv")
+      ) };
+
+*/
+
+
+
   return (
     <React.Fragment>
     <ul className = "Biolist" >
@@ -19,9 +45,16 @@ function Bio(props) {
         </ul>
         <div className="bouncercontainer"><Section /></div> 
       
-       <div className="blurbdiv"> {props.bio.blurb} </div> 
+       <div id="blurbdiv"> {blaahh}
+        </div> 
         </React.Fragment>
   );
+  
+
+
 }
 
 export default Bio;
+
+/*remember Bio with the capital B is the component (a list, a bouncing arrow, and a div for the blurb) 
+and bio is just the prop where we fill in all the details for the above*/
