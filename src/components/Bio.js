@@ -8,7 +8,7 @@ function Bio(props) {
 
 
 if (props.bio.blurb === "blurb1") {
-  var blurbtext = <div className="blurbfont"> Hello it's {props.bio.firstName} here, I really think you should hire me as your {props.bio.job}.
+  var blurbtext = <div className="blurbfont"> Hello it's {props.bio.firstName} here, I'd love if you hired me as your {props.bio.job}.
   I've had over a decade of experience in the industry. I finished school with top marks and went on to complete an MSc,
   and my studies paid off as I obtained a job straight after graduation.
 

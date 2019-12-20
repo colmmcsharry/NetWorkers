@@ -59,7 +59,7 @@ class Login extends React.Component {
 
             <div className = "chooseLogIn">
             
-                 <h2 style={{fontFamily: 'Public-Sans', opacity: '0.6'}}>{this.state.status}</h2>
+                 <h2 style={{fontFamily: 'Gelasio', opacity: '0.9', color:'#2e4c63'}}>{this.state.status}</h2>
                 
                 
                 <button className="buttstyle" onClick={this.chooseWorker}> Worker </button>

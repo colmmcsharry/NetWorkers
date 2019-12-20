@@ -36,12 +36,12 @@ export default class Smalldrop extends React.Component {
         <DropdownToggle style={Dropstyle}>
           &#9776;
         </DropdownToggle>
-        <DropdownMenu right> {/*so for some reason when I add the style to this one, the menu stops going left*/}
+        <DropdownMenu right className="mydrop"> {/*so for some reason when I add the style to this one, the menu stops going left*/}
         
           
-          <DropdownItem><Link to="/About">About</Link></DropdownItem>
-          <DropdownItem><Link to="/Contact">Contact</Link></DropdownItem>
-          <DropdownItem><Link to="/login">Sign Up / Log In</Link></DropdownItem>
+          <DropdownItem><Link to="/About" className="dropitems" >About</Link></DropdownItem>
+          <DropdownItem><Link to="/Contact" className="dropitems" >Contact</Link></DropdownItem>
+          <DropdownItem><Link to="/login" className="dropitems">Sign Up / Log In</Link></DropdownItem>
 
           
           
@@ -51,3 +51,4 @@ export default class Smalldrop extends React.Component {
     );
   }
 }
+/*style={{color:'red'}}*/
