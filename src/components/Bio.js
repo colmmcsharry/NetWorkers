@@ -8,7 +8,7 @@ function Bio(props) {
 
 
 if (props.bio.blurb === "blurb1") {
-  var blurbtext = <div> Hello it's {props.bio.firstName} here, I really think you should hire me as your {props.bio.job}.
+  var blurbtext = <div className="blurbfont"> Hello it's {props.bio.firstName} here, I really think you should hire me as your {props.bio.job}.
   I've had over a decade of experience in the industry. I finished school with top marks and went on to complete an MSc,
   and my studies paid off as I obtained a job straight after graduation.
 
@@ -22,7 +22,7 @@ if (props.bio.blurb === "blurb1") {
   </div>}
 
   else if (props.bio.blurb === "blurb2")
-    {var blurbtext = <div> Hi, I'm {props.bio.firstName} and thanks for checking our my profile.
+    {var blurbtext = <div className="blurbfont"> Hi, I'm {props.bio.firstName} and thanks for checking our my profile.
      I've been a {props.bio.job} for more than 5 years, and it's not just a job for me, it's a way of life!
 
   <br/><br/> Although I didn't complete university, I grew in a family of {props.bio.job}s and picked up
@@ -35,7 +35,7 @@ if (props.bio.blurb === "blurb1") {
   </div> }
 
 else if (props.bio.blurb === "blurb3")
-{var blurbtext = <div> Hey there, {props.bio.firstName} is my name and if you're looking for a top {props.bio.job},
+{var blurbtext = <div className="blurbfont"> Hey there, {props.bio.firstName} is my name and if you're looking for a top {props.bio.job},
 you've come to the right place. 
 <br/><br/>
 Whilst I am pretty pricey at {props.bio.cost}, I am worth every penny! I started studying to be a  {props.bio.job} at high school and went on to form my own company. Now, I am taking my talents to NetWorkers!

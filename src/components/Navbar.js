@@ -5,6 +5,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Newdrop from "./Newdrop";
 import Smalldrop from "./Smalldrop";
+import NewdropSml from "./NewdropSml";
 
 export default class Navbar extends React.Component {
   render() {
@@ -16,10 +17,14 @@ export default class Navbar extends React.Component {
             /> 
           </Link>
         </div>
-        <div className="dropbar">
+        <span className="fullscreen"><div className="dropbar">
           <Newdrop />
         </div>
-
+        </span>
+            <span className="smallscreen"><div className="dropbar">
+               <NewdropSml />
+            </div>
+            </span>
         <div className="hamburger">
           <Smalldrop />
         </div>

@@ -13,7 +13,7 @@ import { Link as Link2, animateScroll as scroll } from "react-scroll";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, faStar as solidstar  } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, faSearch, faStar as solidstar  } from '@fortawesome/free-solid-svg-icons';
 import { faStar as fasFaStar } from '@fortawesome/free-solid-svg-icons'
 import { faStar as farFaStar } from '@fortawesome/free-regular-svg-icons'
 import { faAd } from '@fortawesome/free-solid-svg-icons'
@@ -26,7 +26,7 @@ import {
   faLinkedIn
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, fasFaStar, farFaStar)
+library.add(faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, fasFaStar, farFaStar, faSearch)
 
 
 

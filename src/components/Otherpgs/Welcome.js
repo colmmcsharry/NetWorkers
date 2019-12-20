@@ -3,7 +3,7 @@ import React from 'react';
 function Welcome ()
 {
 	return(
-		<div className="Fader"> <span style={{fontSize:'40px', fontFamily: 'itim'}}> Hello and welcome to NetWorkers.</span>
+		<div className="Fader"> <span style={{fontSize:'40px', fontFamily: 'itim'}}> Welcome to NetWorkers.</span>
 		<br/><br/>
 			Need some renovations done on your house? 
 		<br/><br/>
