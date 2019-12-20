@@ -14,7 +14,7 @@ return (
 
 	<div className="me"><img src="https://avatars3.githubusercontent.com/u/31823017?s=460&v=4" style={{ width: 150, height: 150, }}/></div>
 	<br/> 
-	<div className="meblurb" style={{fontFamily:'Quicksand', fontSize:'.9rem'}}>
+	<div className="meblurb">
 
 		I created this site to help people find workers in a hurry!* <br/> <br/>
 		Maybe you're in a rush to get your taxes done, or need to cook dinner for some guests? <br/> <br/>

@@ -1,28 +1,15 @@
-import React from 'react';
-
+import React, { useState, useCallback } from "react";
 
 
 function Testpage() {
 
-  const Workerbutton = () => (
-    <button>I am a worker!</button>
-)
-
- const Customerbutton = () => (
-    <button>I am a Customer!</button>
-)
-
-
-return (
-
-	
-<div>
- 	<Workerbutton /> <span> <Customerbutton /> </span>
-
-        
-   </div>     
-)
+  return (
+    <div>
+      blah
+    </div>
+  );
 }
+
 
 export default Testpage
 

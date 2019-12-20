@@ -3,7 +3,6 @@
 import logo from "../pics/networking.png";
 import React from "react";
 import { Link } from 'react-router-dom';
-import Newdrop from "./Newdrop";
 import Smalldrop from "./Smalldrop";
 import NewdropSml from "./NewdropSml";
 
@@ -17,14 +16,9 @@ export default class Navbar extends React.Component {
             /> 
           </Link>
         </div>
-        <span className="fullscreen"><div className="dropbar">
-          <Newdrop />
+        <div className="dropbar">
+          <NewdropSml />
         </div>
-        </span>
-            <span className="smallscreen"><div className="dropbar">
-               <NewdropSml />
-            </div>
-            </span>
         <div className="hamburger">
           <Smalldrop />
         </div>

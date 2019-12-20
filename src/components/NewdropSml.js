@@ -33,7 +33,7 @@ export default class NewdropSml extends React.Component {
       
 ;
     return (
-      <Dropdown size="sm" isOpen={this.state.dropdownOpen} toggle={this.toggle}> {/*this direction works*/}
+      <Dropdown direction="left" size="sm" isOpen={this.state.dropdownOpen} toggle={this.toggle}> {/*this direction works*/}
         <DropdownToggle style={Dropstyle}>
            <FontAwesomeIcon icon="search"  size="lg" />
         </DropdownToggle>
