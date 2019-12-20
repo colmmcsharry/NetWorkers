@@ -91,9 +91,10 @@ font-family: "Public Sans", sans-serif;
   width:30%;
 }
 
+.headingsmall {display: none}
 
 .Fader {
-  margin-top:100px;
+  margin-top:50px;
     display:inline-block;
     width:70%;
     color:#2e4c63;
@@ -493,7 +494,7 @@ margin:0px 00px;
 
 
 .Fader {
-  margin-top:0px;
+  margin-top:30px;
   margin-bottom:150px;
     font-size: .9rem;   
 }
@@ -532,14 +533,16 @@ margin:0px 00px;
   font-size:10px;
 width:10px;
 bottom:0px;
-right:30px;
-top:1px;}
+right:25px;
+top:0px;}
 
 .logocontainer{
   left:45px;
   
 }
 
+.headingbig {display:none;}
+.headingsmall {display:inherit;}
 .Biolist {
   
   font-size:18px;
@@ -554,10 +557,12 @@ top:1px;}
 .Fader {
   margin-top:0px;
   margin-bottom:150px;
-    font-size: .8rem; 
+    font-size: .8rem;
+    border:1px solid red;
+    width:90%; 
 }
 
-.Fader span {font-size:10px;}
+.heading {font-size:10px;}
 
 .mediastuff {
   margin-left:50px;
