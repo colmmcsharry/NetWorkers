@@ -16,7 +16,7 @@ import Welcome from './components/Otherpgs/Welcome'
 export default [
 
 <Route key="home" exact path="/" component={CGallery} />,
-			<Route key="mainhome" exact path="/MyWorkers" component={Welcome} />,
+			<Route key="mainhome" exact path="/NetWorkers" component={Welcome} />,
 
          
             <Route key="about" path="/about" component={About} />,
