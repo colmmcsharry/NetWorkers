@@ -29,7 +29,7 @@ return (
 <div className="mybasediv">
     <div className="testimonials">
       <div className="inner">
-        <h1>Testimonials</h1>
+        <h1 style={{fontFamily:'EBGaramond', color:'#434343', fontWeight:'lighter', fontSize:'30px'}}>Testimonials</h1>
         <div className="border"></div>
 
         <div className="roww">

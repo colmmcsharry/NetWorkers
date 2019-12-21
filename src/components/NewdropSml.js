@@ -43,7 +43,7 @@ export default class NewdropSml extends React.Component {
           <DropdownItem><Link to="/chefs" className="dropitems">Chef</Link></DropdownItem>
           <DropdownItem><Link to="/clowns" className="dropitems">Clown</Link></DropdownItem>
           <DropdownItem><Link to="/designers" className="dropitems">Graphic Designer</Link></DropdownItem>
-          <DropdownItem>More coming soon!</DropdownItem>
+          <DropdownItem style={{fontFamily:'quicksand', color: '#2e4c63'}}>More coming soon!</DropdownItem>
           </DropdownMenu>
       </Dropdown>
     );

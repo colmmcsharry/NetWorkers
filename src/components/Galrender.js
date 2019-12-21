@@ -39,7 +39,8 @@ return (<div className="Lwrapperdiv">
               </Modal>
             ) : null}
           </ModalGateway>
-        </div>
+          </div>
+        
       </div>
 	
 

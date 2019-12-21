@@ -6,7 +6,7 @@ import { Link as Link2, animateScroll as scroll, DirectLink, Element, Events, sc
 function About() {
 return (
 	<React.Fragment>
-	<h1 style={{fontFamily:'itim', color:'#2e4c63'}}>About Networkers</h1>
+	<h1 style={{fontFamily:'EBGaramond', color:'#2e4c63'}}>About Networkers</h1>
 	<br/>
 	<div className="About" style={{fontFamily:'Quicksand', color:'#2e4c63'}}>
 	My name is Colm and I'm the CEO and founder of Networkers

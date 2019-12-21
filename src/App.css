@@ -48,6 +48,7 @@ a:hover {
   cursor: pointer;
 }
 
+
 .About {
 margin-bottom:90px;
 
@@ -82,9 +83,9 @@ font-size:'.8rem';}
 }
 
 .blurbfont {
-  font-family:Open Sans;
-  font-size:.9rem;
-  color:#2e4c63;
+  font-family: quicksand;
+  font-size: 1rem;
+  color:#434343
 }
 
 .quickLogin {
@@ -229,33 +230,48 @@ form {margin-bottom:300px;}
 
 /*Lwrapperdiv and Colmdiv are in Galrender, and are just the Lightbox component*/
 .Lwrapperdiv {
-  padding: 15px;
+  padding: 45px;
   display: grid;
   justify-items: center;
   margin-top: 90px;
+  background-color:#f1f1f1;
+  border-radius: 5px;
 }
 
 .colmdiv {
   height: 70%;
   width: 70%;
+  background-color: #fff;
 }
+
+
 /*lightbox ends*/
 
 
 #bioelement {
-  margin: 40px 0px;
+  margin: 50px 0px;
+  padding-top: 55px;
   display:block;
+  background-color:#f1f1f1;
+  border-radius: 5px;
 }
 
 .Biolist {
+  color:#434343;
   font-family: 'EB Garamond', serif;
   font-weight:500;
-  font-size:22px;
+  font-size:20px;
   display:inline-block;
   margin-bottom: 30px;
   padding:0;
   width:50%;
   list-style-type: none;
+  
+  background-color: #fff;
+  outline-style:solid;  
+    outline-color:#fff; 
+    outline-width:10px;
+    box-shadow: 0 0 2pt 15pt #fff;;
 
 }
 
@@ -265,11 +281,16 @@ form {margin-bottom:300px;}
 }
 
 #blurbdiv {
-  font-family: 'itim', serif;
   width: 50%;
   display:inline-block;
   margin:60px 0px;
-  color:black;
+  color: #434343;
+  background-color: #fff;
+  outline-style:solid;  
+    outline-color:#fff;    
+    outline-width:10px;
+    box-shadow: 0 0 2pt 15pt #fff;;
+
 }
 
 
@@ -282,7 +303,8 @@ form {margin-bottom:300px;}
 }
 
 
-.colum p {font-family: papyrus;}
+.colum p {font-family: papyrus;
+          font-weight:lighter;}
 /*this is for the testimonials*/
 
 
@@ -333,26 +355,34 @@ bouncer {
   margin: 0;
   padding-top: 150px;
   font-family: "montserrat",sans-serif;
-  color:red;
   margin-bottom:150px;
 }
 .testimonials{
+  border:3px solid #f1f1f1;
+  border-radius: 5px;
   padding: 40px 0;
   background: #f1f1f1;
   color: #434343;
   text-align: center;
 }
+
+.testimonials p {
+  opacity:0.9;
+}
+
 .inner{
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
   padding: 0 20px;
+
 }
 
 .border{
   width: 160px;
   height: 5px;
-  background: #6ab04c;
+  background: #1B6EB0;
+  opacity:0.7;
   margin: 26px auto;
 }
 
@@ -370,6 +400,9 @@ bouncer {
 .testimonial{
   background: #fff;
   padding: 30px;
+  border-radius: 5px;
+
+
 }
 
 .testimonial img{
@@ -379,12 +412,14 @@ bouncer {
 }
 .name{
   font-size: 20px;
-  font-family: courier new;
+  font-family: EBGaramond;
   font-weight: 500;
+ color: #434343;;
   margin: 20px 0;
 }
 .stars{
-  color: #6ab04c;
+  color: #1B6EB0;
+  opacity:0.7;
   margin-bottom: 20px;
 }
 
@@ -409,7 +444,7 @@ bouncer {
 
 /* SOCIAL STUFF */
 .social-container {
-  background: #eee;
+  background: #F1F1F1;
   padding: 10px 50px;
   
   font-family: "Public Sans", sans-serif;
@@ -446,8 +481,10 @@ a.twitter {
 }
 
 a.instagram {
-  color: black;
-}
+  color: white;
+  border-radius:15%;
+  height:33px;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
 
 /*SOCIAL STUFF ENDS*/
 
@@ -519,10 +556,7 @@ margin:0px 00px;
     padding-right: 20px;
    }
 
-.blurbfont {
-  font-family:Open Sans;
-  font-size:.8rem;
-}
+
 
 .dropbar {right: 10px;}
 
@@ -541,11 +575,15 @@ margin:0px 00px;
   
   font-size:18px;
   display:inline-block;
-  margin-bottom: 30px;
-  padding:0;
-  width:80%;
+  margin: 50px 0px;
+  padding:10px 0px;
+  width:65%;
   list-style-type: none;
-
+  background-color: #F1F1F1;
+  outline-style:solid;  
+    outline-color:#F1F1F1;    
+    outline-width:10px;
+    box-shadow: 0 0 2pt 15pt #F1F1F1;
 }
 
 .Fader {
@@ -564,10 +602,23 @@ margin:0px 00px;
   margin-bottom: 180px;
 }
 
-.blurbdiv {
+#bioelement {
+  padding:0px;
+  margin:0px;
+  background-color:#f1f1f1;
+}
+
+#blurbdiv {
   
-  display:inline-block;
-  margin:60px 0px;
+  background-color: #F1F1F1;
+  outline-style:solid;  
+    outline-color:#F1F1F1;    
+    outline-width:10px;
+    box-shadow: 0 0 2pt 15pt #F1F1F1;
+}
+
+.blurbfont {
+  font-size:.8rem;
 }
 
 .profilecaption {

@@ -4,12 +4,13 @@ import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 const Contact = (props) => {
   return (
     <Form>
+    <div className="contactform" style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>
       <FormGroup>
-        <Label for="exampleEmail"><h1 style={{fontFamily:'itim', color: '#2e4c63'}}>Contact Networkers</h1></Label> <br/> <br/>
+        <Label for="exampleEmail"><h1 style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>Contact Networkers</h1></Label> <br/> <br/>
       </FormGroup>
       <div className="form-row">
           <FormGroup className="col-md-6">
-            <Label for="inputfirstname">Full Name</Label>
+            <Label for="inputfirstname" >Full Name</Label>
             <Input type="text"  id="inputFirstName" placeholder="Full Name"/>
           </FormGroup>
           <FormGroup className="col-md-6">
@@ -48,6 +49,7 @@ const Contact = (props) => {
           <Input type="checkbox" /> Send Message!
         </Label>
       </FormGroup>
+      </div>
     </Form>
   );
 }
