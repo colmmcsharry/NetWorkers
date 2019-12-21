@@ -11,6 +11,7 @@ border: green;
 }*/
 
 .App {
+  background-color: #fff;
   text-align: center;
   position: relative;
   min-height: 100vh;
@@ -178,7 +179,7 @@ form {margin-bottom:300px;}
 /*Mynavbar is a long container div with 3 columns, first for logo and dropdown, second blank, third for authlinks*/
 .Mynavbar {
   display: grid;
-  background-color: white;
+  background-color: #fff;
   grid-template-columns: 1fr 8fr 1fr 1fr;
   justify-content: center;
   padding: 30px 0px;
@@ -579,12 +580,15 @@ margin:0px 00px;
   padding:10px 0px;
   width:65%;
   list-style-type: none;
-  background-color: #F1F1F1;
+  background-color: #fff;
   outline-style:solid;  
-    outline-color:#F1F1F1;    
+    outline-color:#fff; 
     outline-width:10px;
-    box-shadow: 0 0 2pt 15pt #F1F1F1;
+    box-shadow: 0 0 2pt 15pt #fff;
 }
+
+
+
 
 .Fader {
   margin-top:0px;
@@ -610,11 +614,11 @@ margin:0px 00px;
 
 #blurbdiv {
   
-  background-color: #F1F1F1;
+  background-color: #fff;
   outline-style:solid;  
-    outline-color:#F1F1F1;    
+    outline-color:#fff; 
     outline-width:10px;
-    box-shadow: 0 0 2pt 15pt #F1F1F1;
+    box-shadow: 0 0 2pt 15pt #fff;
 }
 
 .blurbfont {
