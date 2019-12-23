@@ -10,12 +10,12 @@ return (
 	<br/>
 	<div className="About" style={{fontFamily:'Quicksand', color:'#2e4c63'}}>
 	My name is Colm and I'm the CEO and founder of Networkers
-	<br/> <br/>
+	<br/> <br/> <br/>
 
 	<div className="me"><img src="https://avatars3.githubusercontent.com/u/31823017?s=460&v=4" style={{ width: 150, height: 150, }}/></div>
 	<br/> 
 	<div className="meblurb">
-
+		<br/>
 		I created this site to help people find workers in a hurry!* <br/> <br/>
 		Maybe you're in a rush to get your taxes done, or need to cook dinner for some guests? <br/> <br/>
 		Browse through our accountants or chefs, check out their galleries and testimonials, and hire one! <br/><br/>

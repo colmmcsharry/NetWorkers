@@ -117,6 +117,7 @@ font-size:'.8rem';}
     display:inline-block;
     width:70%;
     color:#2e4c63;
+    
     font-family: 'Quicksand';
     font-size:18px;
     animation: fadeinout 4s linear infinite;
@@ -273,11 +274,6 @@ form {margin-bottom:300px;}
   list-style-type: none;
   
   background-color: #fff;
-  outline-style:solid;  
-    outline-color:#fff; 
-    outline-width:10px;
-    box-shadow: 0 0 2pt 15pt #fff;;
-
 }
 
 .light {
@@ -291,11 +287,6 @@ form {margin-bottom:300px;}
   margin:60px 0px;
   color: #434343;
   background-color: #fff;
-  outline-style:solid;  
-    outline-color:#fff;    
-    outline-width:10px;
-    box-shadow: 0 0 2pt 15pt #fff;;
-
 }
 
 
@@ -608,7 +599,7 @@ margin:0px 00px;
 #bioelement {
   padding:0px;
   margin:0px;
-  background-color:#dbeefc;
+  background-color:#fff;
 }
 
 #blurbdiv {
