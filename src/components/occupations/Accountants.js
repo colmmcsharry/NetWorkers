@@ -7,6 +7,7 @@ import Bio from '../Bio.js'
 import accountant from '../../pics/accountant.jpeg'
 import accountant2copy from '../../pics/accountant2copy.jpg'
 import accountant3 from '../../pics/accountant3.jpg'
+import accountanthq from '../../pics/accountanthq.jpg'
 import {  Element  } from 'react-scroll'
 import { JohnBio, BillBio, JillBio } from './AllBios.js'
 
@@ -113,7 +114,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                 src={accountant} alt="John"
+                 src={accountanthq} alt="John"
             />
               
               <figcaption> John </figcaption>

@@ -38,7 +38,7 @@ class CGallery extends React.Component {
       <AliceCarousel
         duration={400}
         autoPlay={true}
-        startIndex={3}
+        startIndex={4}
         fadeOutAnimation={true}
         mouseDragEnabled={true}
         playButtonEnabled={true}
@@ -57,7 +57,7 @@ class CGallery extends React.Component {
               src={designers} alt="designer"
             />
             
-            <figcaption>Designer</figcaption>
+            <figcaption>Graphic Designer</figcaption>
           </figure>
           </Link>
         </div>

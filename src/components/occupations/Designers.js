@@ -116,7 +116,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                 src={designer1} alt="Alaina"
+                 src={designer3} alt="Alaina"
             />
               
               <figcaption> Alaina </figcaption>
@@ -138,7 +138,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={designer3} alt="Florence"
+                src={designer1} alt="Florence"
             />
               
               <figcaption> Florence </figcaption>
