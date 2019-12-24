@@ -7,8 +7,11 @@ import Bio from "../Bio";
 import designer1 from '../../pics/designer1.jpg'
 import designer2 from '../../pics/designer2.jpeg'
 import designer3 from '../../pics/designer3.jpg'
+import testcopy from '../../pics/testcopy.jpg'
 import {  Element  } from 'react-scroll'
 import { AlainaBio, EdBio, FlorenceBio } from './AllBios.js'
+import nsmall from '../../pics/nsmall.jpg'
+
 
 
 
@@ -124,7 +127,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={designer2} alt="Edward"
+                src={nsmall}
             />
               
               <figcaption> Edward</figcaption>

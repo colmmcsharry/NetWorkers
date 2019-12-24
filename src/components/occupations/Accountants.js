@@ -5,7 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
 import Bio from '../Bio.js'
 import accountant from '../../pics/accountant.jpeg'
-import accountant2 from '../../pics/accountant2.jpg'
+import accountant2copy from '../../pics/accountant2copy.jpg'
 import accountant3 from '../../pics/accountant3.jpg'
 import {  Element  } from 'react-scroll'
 import { JohnBio, BillBio, JillBio } from './AllBios.js'
@@ -113,7 +113,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                 src={accountant} alt="Alaina"
+                 src={accountant} alt="John"
             />
               
               <figcaption> John </figcaption>
@@ -124,7 +124,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={accountant2} alt="Edward"
+                src={accountant2copy} alt="Jill"
             />
               
               <figcaption> Jill</figcaption>
@@ -135,7 +135,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={accountant3} alt="Florence"
+                src={accountant3} alt="Bill"
             />
               
               <figcaption> Bill </figcaption>
