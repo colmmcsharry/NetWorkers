@@ -6,7 +6,7 @@ import Lightbox from "../../components/Lightbox.js";
 import Bio from '../Bio.js'
 import chef from '../../pics/chef.jpg'
 import chef2 from '../../pics/chef2.jpg'
-import chef4 from '../../pics/chef4.jpg'
+import chef5 from '../../pics/chef5.jpg'
 import {  Element  } from 'react-scroll'
 import { GordonBio, CurtisBio, JackBio } from './AllBios.js'
 
@@ -135,7 +135,7 @@ if (e.item === 0) {
             <figure>
               <img
                 className="carimages"
-                src={chef4} alt="Florence"
+                src={chef5} alt="Florence"
             />
               
               <figcaption> Juicy Jack </figcaption>
