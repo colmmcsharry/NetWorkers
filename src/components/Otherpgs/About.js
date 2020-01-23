@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from "react-dom";
 import { render } from 'react-dom';
-import { Link as Link2, animateScroll as scroll, DirectLink, Element, Events, scrollSpy, scroller  } from "react-scroll";
+
 
 function About() {
 return (
