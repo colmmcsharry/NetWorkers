@@ -8,6 +8,7 @@ import  p6  from '../pics/p6.jpeg'
 import  p7  from '../pics/p7.jpeg'
 import  p8  from '../pics/p8.jpeg'
 import  p9  from '../pics/p9.jpeg'
+import  p10  from '../pics/p10.jpg'
 import testcopy from '../pics/testcopy.jpg'
 export { names }
 export { pics }
@@ -22,5 +23,5 @@ const pics = ["https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/1359
 "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/14/square_thumb%402x.jpg",
 "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/13320/square_thumb%402x.png",
 "https://images.unsplash.com/photo-1535324492437-d8dea70a38a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-p1, p2, p3, p4, p5, p6, p7, p8, p9, testcopy  ]
+p1, p2, p3, p4, p5, p6, p7, p8, p9,p10, testcopy  ]
 

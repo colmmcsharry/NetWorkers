@@ -11,7 +11,7 @@ import {
 export default function SocialFollow() {
   return (
     <div className="social-container">
-      <h3 style={{fontFamily:'EBGaramond', color:'#434343'}}>@NetWorkers</h3>
+      <h3 style={{fontFamily:'EBGaramond', color:'#434343' }}>@NetWorkers</h3>
       <a
         href="https://www.youtube.com"
         className="youtube social"

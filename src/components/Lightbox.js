@@ -49,7 +49,7 @@ function Lightbox(props) {
 
 else if (iswho === "John") {
     return ( <React.Fragment>
-       <Testimonial name="John" job="accountant" cost="$20 p/hour" pronoun="she"/>
+       <Testimonial name="John" job="accountant" cost="$20 p/hour" pronoun="he"/>
        </React.Fragment>
     );
   } else if (iswho === "Jill") {
