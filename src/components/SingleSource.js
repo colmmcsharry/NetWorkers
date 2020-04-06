@@ -9,7 +9,7 @@ function SingleSource({ src }) {
 
   return (
     <div>
-      <Image className="carimages"
+      <Image 
         
         zoomed={zoomed}
         src={src}

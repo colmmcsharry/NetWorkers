@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from "react-dom";
 import { render } from 'react-dom';
-import SingleSource from '../SingleSource.js'
 
 
 function About() {
@@ -31,7 +30,6 @@ return (
 
 	</div>
 
-	<SingleSource src="https://images.unsplash.com/photo-1536012441472-aae6b3ce330f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"/>
 
 	
 	</React.Fragment>
