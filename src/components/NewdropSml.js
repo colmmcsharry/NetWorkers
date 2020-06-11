@@ -38,12 +38,12 @@ export default class NewdropSml extends React.Component {
            <FontAwesomeIcon icon="search"  size="lg" />
         </DropdownToggle>
         <DropdownMenu right className = "mydrop">
-          <DropdownItem tag={Link} to="/accountants" className="dropitems">Accountant</DropdownItem>
-          <DropdownItem tag={Link} to="/builders" className="dropitems">Builder</DropdownItem>
-          <DropdownItem tag={Link} to="/chefs" className="dropitems">Chef</DropdownItem>
-          <DropdownItem tag={Link} to="/clowns" className="dropitems">Clown</DropdownItem>
-          <DropdownItem tag={Link} to="/designers" className="dropitems">Graphic Designer</DropdownItem>
-          <DropdownItem style={{fontFamily:'quicksand', color: '#2e4c63'}}>More coming soon!</DropdownItem>
+          <DropdownItem tag={Link} to="/accountants" className="dropitems">Accountants</DropdownItem>
+          <DropdownItem tag={Link} to="/builders" className="dropitems">Builders</DropdownItem>
+          <DropdownItem tag={Link} to="/chefs" className="dropitems">Chefs</DropdownItem>
+          <DropdownItem tag={Link} to="/clowns" className="dropitems">Clowns</DropdownItem>
+          <DropdownItem tag={Link} to="/designers" className="dropitems">Graphic Designers</DropdownItem>
+          <DropdownItem header style={{fontFamily:'quicksand', color: '#2e4c63'}}>More coming soon!</DropdownItem>
           </DropdownMenu>
       </Dropdown>
     );

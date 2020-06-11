@@ -13,22 +13,22 @@ export default function SocialFollow() {
     <div className="social-container">
       <h3 style={{fontFamily:'EBGaramond', color:'#434343' }}>@NetWorkers</h3>
       <a
-        href="https://www.youtube.com"
+        href="javascript:void(0)"
         className="youtube social"
       >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
       <a
-        href="https://www.facebook.com/"
+        href="javascript:void(0)"
         className="facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a href="https://www.twitter.com" className="twitter social">
+      <a href="javascript:void(0)" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a
-        href="https://www.instagram.com"
+        href='javascript:void(0)'
         className="instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />

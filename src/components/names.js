@@ -1,7 +1,7 @@
 
-import  p1  from '../pics/p1.png'
-import  p2  from '../pics/p2.png'
-import  p3  from '../pics/p3.png'
+import  p1  from '../pics/p1.jpg'
+import  p2  from '../pics/p2.jpg'
+import  p3  from '../pics/p3.jpg'
 import  p4  from '../pics/p4.jpeg'
 import  p5  from '../pics/p5.jpeg'
 import  p6  from '../pics/p6.jpeg'

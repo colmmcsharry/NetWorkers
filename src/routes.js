@@ -8,7 +8,6 @@ import  Clowns  from './components/occupations/Clowns.js'
 import  Chefs  from './components/occupations/Chefs.js'
 import  Designers  from './components/occupations/Designers.js'
 import  Accountants  from './components/occupations/Accountants.js'
-import Testpage from './components/Otherpgs/Testpage.js'
 import Login from './components/Otherpgs/Login'
 import Testimonial from './components/Testimonial.js'
 import Welcome from './components/Otherpgs/Welcome'
@@ -27,6 +26,5 @@ export default [
             <Route key="builders" path="/builders" component={Builders} />,
             <Route key="designers" path="/designers" component={Designers} />,
             <Route key="accountants" path="/accountants" component={Accountants} />,
-            <Route key="testpage" path="/testpage" component={Testpage} />
 
             ]

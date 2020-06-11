@@ -44,7 +44,7 @@ if (e.item === 0) {
         document.getElementById("bioelement")
       );
       ReactDOM.render(
-        <Lightbox iswho="designer1" />,
+        <Lightbox iswho="John" />,
         document.getElementById("mybotelement")
       );
     } else if (e.item === 1) {

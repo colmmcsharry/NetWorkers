@@ -57,7 +57,7 @@ class CGallery extends React.Component {
               src={designers} alt="designer"
             />
             
-            <figcaption>Graphic Designer</figcaption>
+            <figcaption>Graphic Designers</figcaption>
           </figure>
           </Link>
         </div>
@@ -70,7 +70,7 @@ class CGallery extends React.Component {
             />
 
             <figcaption>
-               Builder
+               Builders
             </figcaption>
           </figure>
           </Link>
@@ -83,7 +83,7 @@ class CGallery extends React.Component {
               src={chefs} alt="chef"
             />
             
-            <figcaption>Chef</figcaption>
+            <figcaption>Chefs</figcaption>
           </figure>
           </Link>
         </div>
@@ -95,7 +95,7 @@ class CGallery extends React.Component {
               src={accountants} alt="accountant"
             />
             
-            <figcaption>Accountant</figcaption>
+            <figcaption>Accountants</figcaption>
           </figure>
           </Link>
         </div>
@@ -107,7 +107,7 @@ class CGallery extends React.Component {
               src={clowns} alt="clown" 
             />
             
-            <figcaption>Clown</figcaption>
+            <figcaption>Clowns</figcaption>
           </figure>
           </Link>
         </div>

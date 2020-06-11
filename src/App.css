@@ -165,6 +165,9 @@ form {margin-bottom:300px;}
   width: 350px;
 }
 
+.myimg {border: none !important;
+outline: none !important;}
+
 .Gallerywrapper {
   padding-top: 20px;
   background-color: white;
@@ -577,7 +580,7 @@ margin:0px 00px;
 .logocontainer{
   
 }
-
+/**/
 /*in the about or welcome x*/
 .headingbig {display:none;}
 .headingsmall {display:inherit;}
