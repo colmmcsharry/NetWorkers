@@ -4,6 +4,7 @@ import { faStar } from '@fortawesome/free-regular-svg-icons'
 import { names, pics } from './names'
 
 
+
     // <meta name="viewport" content="width=device-width, initial-scale=1">
     // <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
@@ -14,18 +15,28 @@ function Testimonial (props) {
       var name1 = names[Math.floor(Math.random()*names.length)]
       var name2 = names[Math.floor(Math.random()*names.length)]
       var name3 = names[Math.floor(Math.random()*names.length)]
+
+if (name1 === name2 || name1 === name3 || name2 === name3){
+  name1 = 'Harley Baskin';
+  name3 = "Robin Givens"
+}
+    
   
 var randompic = pics[[Math.floor(Math.random()*pics.length)]]
 var randompic2 = pics[[Math.floor(Math.random()*pics.length)]]
  var randompic3 = pics[[Math.floor(Math.random()*pics.length)]]
 
+if (randompic == randompic2 || randompic == randompic3 || randompic2 == randompic3){
+  randompic = "https://lh5.googleusercontent.com/proxy/oHZTSoG2t_EDEPak8n-F4It1yqNsykJzldf3j1u8vcQTWXC7CiWMJoNGKkfs-YAxD3anCPPfDqr7yh-ThvHduonm3mnLJ6I1VPGbyp2mIIbiwK1FDhauy6GTA8I";
+  randompic3 = "https://www.colinmoss.com/_Media/colin-moss---headshot-2018_hr-2.jpeg"
 
+}
 
 
 
 return (
 
-
+ 
 <div className="mybasediv">
     <div className="testimonials">
       <div className="inner">
