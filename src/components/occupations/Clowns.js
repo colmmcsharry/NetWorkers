@@ -116,7 +116,7 @@ if (e.item === 0) {
                  src={clown} alt="Alaina"
             />
               
-              <figcaption> Bombastic Billy </figcaption>
+              <figcaption> Billy </figcaption>
             </figure>
           </div>
 
@@ -127,7 +127,7 @@ if (e.item === 0) {
                 src={clown2} alt="Edward"
             />
               
-              <figcaption> Bubbly Bubba </figcaption>
+              <figcaption> Bubba </figcaption>
             </figure>
           </div>
 
@@ -138,7 +138,7 @@ if (e.item === 0) {
                 src={clown3} alt="Florence"
             />
               
-              <figcaption> Colly the Clown </figcaption>
+              <figcaption> Colly </figcaption>
             </figure>
           </div>
         </AliceCarousel>

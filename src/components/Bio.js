@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Section from './Section'
+import Scroller from './Scroller.js'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link as ScrollLink, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
       
 
 function Bio(props) {
@@ -50,6 +51,7 @@ I look forward to hearing from you!
 
   return (
     <React.Fragment>
+    <Element name="workerstuff"/>
     <ul className = "Biolist" >
      <li> First Name : <span className="light">{props.bio.firstName}</span>  </li>
       <li> Last Name : <span className="light"> {props.bio.lastName} </span></li>
@@ -61,7 +63,7 @@ I look forward to hearing from you!
        </li>
        
         </ul>
-        <div className="bouncercontainer"><Section /></div> 
+        <div className="bouncercontainer"><Scroller /></div> 
       
        <div id="blurbdiv"> {blurbtext}
         </div> 

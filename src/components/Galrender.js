@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import Section from './Section'
+import Scroller from './Scroller.js'
 /*this component controls who shows up in the lightbox*/
 
 

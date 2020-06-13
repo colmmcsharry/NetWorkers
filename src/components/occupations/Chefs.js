@@ -138,7 +138,7 @@ if (e.item === 0) {
                 src={chef5} alt="Florence"
             />
               
-              <figcaption> Juicy Jack </figcaption>
+              <figcaption> Jack </figcaption>
             </figure>
           </div>
         </AliceCarousel>
