@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from '@fortawesome/free-regular-svg-icons'
 import { names, pics } from './names'
+import randomhead1 from '../pics/random.jpeg'
+import randomhead2 from '../pics/random2.jpg'
 
 
 
@@ -27,8 +29,8 @@ var randompic2 = pics[[Math.floor(Math.random()*pics.length)]]
  var randompic3 = pics[[Math.floor(Math.random()*pics.length)]]
 
 if (randompic == randompic2 || randompic == randompic3 || randompic2 == randompic3){
-  randompic = "https://lh5.googleusercontent.com/proxy/oHZTSoG2t_EDEPak8n-F4It1yqNsykJzldf3j1u8vcQTWXC7CiWMJoNGKkfs-YAxD3anCPPfDqr7yh-ThvHduonm3mnLJ6I1VPGbyp2mIIbiwK1FDhauy6GTA8I";
-  randompic3 = "https://www.colinmoss.com/_Media/colin-moss---headshot-2018_hr-2.jpeg"
+  randompic = randomhead1
+  randompic3 = randomhead2
 
 }
 
