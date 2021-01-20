@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from "react-dom";
 import { render } from 'react-dom';
-import meheadsml from './meheadsml.jpg'
+import mecopy from './mecopy.jpg'
+import meprofile from '../../pics/meprofile.jpeg'
 
 
 
@@ -16,7 +17,7 @@ return (
 	My name is Colm and I'm the CEO and founder of Networkers
 	<br/> <br/> <br/>
 
-	<div className="me"><img src={meheadsml} style={{ width: 150, height: 160, }}/></div>
+	<div className="me"><img src={mecopy} style={{ width: 220, height: 220, objectFit: 'cover' }}/></div>
 	<br/> 
 	<div className="meblurb">
 		<br/>
