@@ -13,7 +13,7 @@ import {
 const WorkerForm = () => {
   return (
     <React.Fragment>
-      <form style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>
+      <form style={{fontFamily:'Georgia', color: '#2e4c63'}}>
       
       <div className="workerprofile">
       <figure>

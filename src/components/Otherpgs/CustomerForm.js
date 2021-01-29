@@ -10,7 +10,7 @@ import {
 const CustomerForm = () => {
   return (
     <React.Fragment>
-      <form style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>
+      <form style={{fontFamily:'Georgia', color: '#2e4c63'}}>
         <div className="form-row">
           <FormGroup className="col-md-6">
             <Label for="inputfirstname">First Name</Label>

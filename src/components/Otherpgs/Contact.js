@@ -4,9 +4,9 @@ import { Form, FormGroup, Label, Input } from 'reactstrap';
 const Contact = (props) => {
   return (
     <Form>
-    <div className="contactform" style={{fontFamily:'EBGaramond', color: '#2e4c63', padding:'0 10%'}}>
+    <div className="contactform" style={{fontFamily:'Georgia', color: '#2e4c63', padding:'0 10%'}}>
       <FormGroup>
-        <Label for="exampleEmail"><h1 style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>Contact Networkers</h1></Label> <br/> <br/>
+        <Label for="exampleEmail"><h1 style={{fontFamily:'Georgia', color: '#2e4c63'}}>Contact Networkers</h1></Label> <br/> <br/>
       </FormGroup>
       <div className="form-row">
           <FormGroup className="col-md-6">

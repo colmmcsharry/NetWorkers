@@ -34,7 +34,7 @@ class Login extends React.Component {
     render() {
         return (
 <React.Fragment>
-            <div className = "quickLogin" style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>
+            <div className = "quickLogin" style={{fontFamily:'Georgia', color: '#2e4c63'}}>
             Already have an account? Log in here  <br/><br/>
                 <div className="form-row">
 
@@ -51,7 +51,7 @@ class Login extends React.Component {
 
              </div>
 
-            <div className = "chooseLogIn" style={{fontFamily:'EBGaramond', color: '#2e4c63'}}>
+            <div className = "chooseLogIn" style={{fontFamily:'Georgia', color: '#2e4c63'}}>
             
                  <h2>{this.state.status}</h2>
                 

@@ -12,7 +12,7 @@ import {
 export default function SocialFollow() {
   return (
     <div className="social-container">
-      <h3 style={{fontFamily:'EBGaramond', color:'#434343' }}>@NetWorkers</h3>
+      <h3 style={{fontFamily:'Georgia', color:'#434343' }}>@NetWorkers</h3>
       <button
         
         className="youtube social"
