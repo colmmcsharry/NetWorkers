@@ -472,12 +472,12 @@ bouncer {
 .social-container {
   background: #f1f1f1;
   padding: 10px 50px;
-  
   font-family: "Georgia", sans-serif;
   position:absolute;
   left:0;
 bottom:0;
 right:0;
+white-space:nowrap;
 }
 
 .social-container h3 {
@@ -485,7 +485,7 @@ right:0;
   font-size:17px;
 }
 button.social {
-  margin: 0 .7rem;
+  margin: 0 1vw;
   transition: transform 250ms;
   display: inline-block;
   border:none;
