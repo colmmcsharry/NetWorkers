@@ -7,7 +7,7 @@ import accountants from '../pics/accountants.jpg'
 import builders from '../pics/builders.jpg'
 import chefs from '../pics/chefs.jpg'
 import designers from '../pics/designers.jpg'
-import Welcome from './Otherpgs/Welcome.js'
+import Welcome from './Welcome.js'
 /*remember there is an AliceCarousel.CSS file that can be edited too, like in my group proj version, can remove buttons, etc.*/
 
 class CGallery extends React.Component {
@@ -51,7 +51,7 @@ class CGallery extends React.Component {
         onSlideChange={this.onSlideChange}
         onSlideChanged={this.onSlideChanged}
       >
-      
+
         <div className="Mypicsclass">
         <Link to="/designers">
           <figure>

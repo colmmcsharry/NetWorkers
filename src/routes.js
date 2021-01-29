@@ -10,7 +10,7 @@ import  Designers  from './components/occupations/Designers.js'
 import  Accountants  from './components/occupations/Accountants.js'
 import Login from './components/Otherpgs/Login'
 import Testimonial from './components/Testimonial.js'
-/*import Welcome from './components/Otherpgs/Welcome'*/
+
 
 export default [
 
