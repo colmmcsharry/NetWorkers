@@ -1,9 +1,6 @@
-/*this is the little scroll arrow component, it's called Section for some reason*/
-
+/*this is the little scroll arrow component */
 import React from 'react';
-import ReactDOM from "react-dom";
-import { render } from 'react-dom';
-import { Link as ScrollLink, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Scroller() {

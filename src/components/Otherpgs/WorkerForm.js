@@ -1,5 +1,5 @@
 import React from "react";
-
+import uploadhead from '../../pics/uploadhead.png'
 import {
   FormGroup,
   FormText,
@@ -18,7 +18,7 @@ const WorkerForm = () => {
       <div className="workerprofile">
       <figure>
 
-        <img className="uploadprofilepic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/480px-Circle-icons-profile.svg.png"/> 
+        <img className="uploadprofilepic" src={uploadhead} alt="uploadpic" /> 
         
         <figcaption> <br/><div className="profilecaption"><Input type="file" name="file" id="exampleFile" /></div></figcaption>
         </figure>

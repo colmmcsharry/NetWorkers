@@ -2,7 +2,6 @@ import React from "react";
 import Galrender from './Galrender'
 import Testimonial from './Testimonial'
 import {d1photos, d2photos, d3photos, markphotos, bobphotos,alphotos, billyphotos, bubbaphotos, colinphotos, gordonphotos, curtisphotos, jackphotos } from '../pics/photoarrays'
-import { pics2 } from './names.js'
 /*this component also controls the lightbox*/
 function Lightbox(props) {
   const iswho = props.iswho;

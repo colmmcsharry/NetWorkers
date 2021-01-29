@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Scroller from './Scroller.js'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link as ScrollLink, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
+import { Element } from "react-scroll";
       
 
 function Bio(props) {

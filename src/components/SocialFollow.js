@@ -4,7 +4,8 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
-  faInstagram
+/*  faInstagram,
+  faInstagramSquare*/
 } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -12,27 +13,25 @@ export default function SocialFollow() {
   return (
     <div className="social-container">
       <h3 style={{fontFamily:'EBGaramond', color:'#434343' }}>@NetWorkers</h3>
-      <a
-        href="javascript:void(0)"
+      <button
+        
         className="youtube social"
       >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
-      <a
-        href="javascript:void(0)"
+      </button>
+      <button
+        
         className="facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      <a href="javascript:void(0)" className="twitter social">
+      </button>
+      <button  className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
-      </a>
-      <a
-        href='javascript:void(0)'
-        className="instagram social"
-      >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
+      </button>
+
+      <button className="instagram social">
+        {/*<FontAwesomeIcon icon={faInstagram} size="2x" />*/}
+      </button>
     </div>
   );
 }

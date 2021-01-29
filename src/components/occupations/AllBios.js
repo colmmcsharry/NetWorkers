@@ -1,10 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import blurb2 from '../Bio'
-import Bio from '../Bio'
 import {
-  faYoutube,
   faFacebook,
   faTwitter,
   faInstagram,
@@ -25,11 +21,11 @@ export { AlainaBio, EdBio, FlorenceBio, Markbio, Bobbio, Albio, JohnBio, BillBio
           cost: "$20 p/hour",
           blurb: "blurb1",
           socials: <React.Fragment>
-          <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faTwitter} style={{color:"#49A1EB"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} style={{color:"#434343"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faGithub}  style={{color:"#434343"}} size="1x"/> </a> 
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a> 
+          <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faTwitter} style={{color:"#49A1EB"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} style={{color:"#434343"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faGithub}  style={{color:"#434343"}} size="1x"/> </button> 
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button> 
 
         </React.Fragment>,
           
@@ -45,11 +41,11 @@ export { AlainaBio, EdBio, FlorenceBio, Markbio, Bobbio, Albio, JohnBio, BillBio
             cost: "$25 p/hour",
             blurb: "blurb2",
             socials: <React.Fragment>
-         <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a> 
-        <a href="#"><FontAwesomeIcon icon={faTwitter} style={{color:"#49A1EB"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faGithub} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+         <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button> 
+        <button><FontAwesomeIcon icon={faTwitter} style={{color:"#49A1EB"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faGithub} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,
           
@@ -65,11 +61,11 @@ const FlorenceBio = {firstName: "Florence",
             cost: "$35 p/hour",
             blurb:"blurb3",
             socials: <React.Fragment>
-         <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a> 
-        <a href="#"><FontAwesomeIcon icon={faTwitter} style={{color:"#49A1EB"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faGithub} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+         <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button> 
+        <button><FontAwesomeIcon icon={faTwitter} style={{color:"#49A1EB"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faGithub} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,  
         
@@ -88,11 +84,11 @@ const FlorenceBio = {firstName: "Florence",
           cost: "$20 p/hour",
           blurb: 'blurb1',
           socials: <React.Fragment>
-         <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a> 
+         <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button> 
         
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -109,10 +105,10 @@ const Bobbio = {
           blurb: 'blurb2',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -127,10 +123,10 @@ const Albio = {firstName: "Alan",
           blurb: 'blurb3',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,  
 
@@ -147,8 +143,8 @@ const JohnBio = {
           cost: "$20 p/hour",
           blurb: 'blurb1',
           socials: <React.Fragment>
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>  
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>  
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -165,10 +161,10 @@ const BillBio = {
           blurb: 'blurb2',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -182,11 +178,11 @@ const BillBio = {
           cost: "$35 p/hour",
           blurb: 'blurb3',
           socials: <React.Fragment>
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>  
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>  
         
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,  
 
@@ -204,8 +200,8 @@ const BillyBio = {
           cost: "$20 p/hour",
           blurb: 'blurb1',
           socials: <React.Fragment>
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>  
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>  
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -222,10 +218,10 @@ const BubbaBio = {
           blurb: 'blurb2',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -240,10 +236,10 @@ const BubbaBio = {
           blurb: 'blurb3',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,  
 
@@ -260,8 +256,8 @@ const GordonBio = {
           cost: "$20 p/hour",
           blurb: 'blurb1',
           socials: <React.Fragment>
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>  
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>  
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -278,10 +274,10 @@ const CurtisBio = {
           blurb: 'blurb2',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,   
         } 
@@ -296,10 +292,10 @@ const CurtisBio = {
           blurb: 'blurb3',
           socials: <React.Fragment>
           
-        <a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faFacebook} style={{color:"#4968AD"}} size="1x"/> </button>
+        <button><FontAwesomeIcon icon={faInstagram} size="1x"/> </button>
   
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </a>
+        <button><FontAwesomeIcon icon={faLinkedin} style={{color:"#0073B0"}}  size="1x"/> </button>
 
         </React.Fragment>,  
 

@@ -1,4 +1,3 @@
-
 import  p1  from '../pics/p1.jpg'
 import  p2  from '../pics/p2.jpg'
 import  p3  from '../pics/p3.jpg'

@@ -4,7 +4,6 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Lightbox from "../../components/Lightbox.js";
 import Bio from '../Bio.js'
-import accountant from '../../pics/accountant.jpeg'
 import accountant2copy from '../../pics/accountant2copy.jpg'
 import accountant3 from '../../pics/accountant3.jpg'
 import accountanthq from '../../pics/accountanthq.jpg'

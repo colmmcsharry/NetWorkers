@@ -9,7 +9,7 @@ import  Chefs  from './components/occupations/Chefs.js'
 import  Designers  from './components/occupations/Designers.js'
 import  Accountants  from './components/occupations/Accountants.js'
 import Login from './components/Otherpgs/Login'
-import Testimonial from './components/Testimonial.js'
+
 
 
 export default [

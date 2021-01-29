@@ -1,8 +1,5 @@
 import React from 'react'
-import ReactDOM from "react-dom";
-import { render } from 'react-dom';
 import mecopy from './mecopy.jpg'
-import meprofile from '../../pics/meprofile.jpeg'
 
 
 
@@ -17,7 +14,7 @@ return (
 	My name is Colm and I'm the CEO and founder of Networkers
 	<br/> <br/> <br/>
 
-	<div className="me"><img src={mecopy} style={{ width: 220, height: 220, objectFit: 'cover' }}/></div>
+	<div className="me"><img src={mecopy} alt="my headshot" style={{ width: 220, height: 220, objectFit: 'cover' }}/></div>
 	<br/> 
 	<div className="meblurb">
 		<br/>

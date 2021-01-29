@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from "react-dom"
 import CustomerForm from './CustomerForm.js'
 import WorkerForm from './WorkerForm.js'
 

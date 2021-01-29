@@ -28,7 +28,7 @@ var randompic = pics[[Math.floor(Math.random()*pics.length)]]
 var randompic2 = pics[[Math.floor(Math.random()*pics.length)]]
  var randompic3 = pics[[Math.floor(Math.random()*pics.length)]]
 
-if (randompic == randompic2 || randompic == randompic3 || randompic2 == randompic3){
+if (randompic === randompic2 || randompic === randompic3 || randompic2 === randompic3){
   randompic = randomhead1
   randompic3 = randomhead2
 

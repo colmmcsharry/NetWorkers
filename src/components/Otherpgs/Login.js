@@ -1,13 +1,7 @@
 import React from "react"
-import ReactDOM from "react-dom"
-import WorkerForm from './WorkerForm.js'
-import CustomerForm from './CustomerForm.js'
 import Menurender from './Menurender'
-import { Button } from 'reactstrap';
-import Dropstyle from '../Smalldrop.js'
 import {
   FormGroup,
-  FormText,
   Label,
   Input,
 } from "reactstrap";
