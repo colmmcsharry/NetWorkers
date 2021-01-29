@@ -16,8 +16,6 @@ export default [
 
 <Route key="home" exact path="/" component={CGallery} />,
 <Route key="mainhome" exact path="/NetWorkers" component={CGallery} />,
-
-         
             <Route key="about" path="/about" component={About} />,
             <Route key="login" path="/login" component={Login} />,
             <Route key="clowns" path="/clowns" component={Clowns} />,
