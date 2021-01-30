@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "628df4a9d97f929a1dd58a83f7ffb28b",
+    "revision": "f5d823e452b2906ff1a27e1715cc4d23",
     "url": "/NetWorkers/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NetWorkers/static/css/2.efd8d4ca.chunk.css"
   },
   {
-    "revision": "0e8a781f6f149599f5fb",
-    "url": "/NetWorkers/static/css/main.e2849651.chunk.css"
+    "revision": "dfe713f9c54db89e5c8f",
+    "url": "/NetWorkers/static/css/main.1a70aa3a.chunk.css"
   },
   {
     "revision": "140a6a3a7a8eb491e5e0",
     "url": "/NetWorkers/static/js/2.abe94e70.chunk.js"
   },
   {
-    "revision": "0e8a781f6f149599f5fb",
-    "url": "/NetWorkers/static/js/main.f8ca66d0.chunk.js"
+    "revision": "dfe713f9c54db89e5c8f",
+    "url": "/NetWorkers/static/js/main.a066a7fa.chunk.js"
   },
   {
     "revision": "6e23e6a9dbf81796d3a0",
