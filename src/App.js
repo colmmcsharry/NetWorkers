@@ -17,18 +17,22 @@ library.add(faCoffee, faCheckSquare, faChevronDown, faMobileAlt, faEnvelope, fas
 
 function App() {
   return (
+    <React.Fragment>
     <HashRouter basename='/'>
     <div className="App">
-      
+      <div id ="content-wrap">
         <Navbar />
         <div className="Gallerywrapper">
         {routes}
           
         </div>
-        
-      <SocialFollow />
+        </div>
+<SocialFollow />
     </div>
+
 </HashRouter>
+
+</React.Fragment>
   )
 
  } 
