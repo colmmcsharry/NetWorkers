@@ -54,7 +54,7 @@ class CGallery extends React.Component {
 
         <div className="Mypicsclass">
         <Link to="/designers" style={{textDecoration:'none'}}>
-          <figure>
+          <figure className="mainfigure">
             <img
               className="carimages"
               src={designers} alt="designer"
@@ -66,7 +66,7 @@ class CGallery extends React.Component {
         </div>
         <div className="Mypicsclass">
         <Link to="/builders" style={{textDecoration:'none'}} >
-          <figure>
+          <figure className="mainfigure">
             <img
               className="carimages"
               src={builders} alt="builder"
@@ -80,7 +80,7 @@ class CGallery extends React.Component {
         </div>
         <div className="Mypicsclass">
         <Link to="/chefs" style={{textDecoration:'none'}}>
-          <figure>
+          <figure className="mainfigure">
             <img
               className="carimages"
               src={chefs} alt="chef"
@@ -92,7 +92,7 @@ class CGallery extends React.Component {
         </div>
         <div className="Mypicsclass">
         <Link to="/accountants" style={{textDecoration:'none'}}>
-          <figure>
+          <figure className="mainfigure">
             <img
               className="carimages"
               src={accountants} alt="accountant"
@@ -104,7 +104,7 @@ class CGallery extends React.Component {
         </div>
         <div className="Mypicsclass">
         <Link to="/clowns" style={{textDecoration:'none'}}>
-          <figure>
+          <figure className="mainfigure">
             <img
               className="carimages"
               src={clowns} alt="clown" 
