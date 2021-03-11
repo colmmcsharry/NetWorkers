@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NetWorkers/static/css/main.a6316f31.chunk.css",
+    "main.css": "/NetWorkers/static/css/main.8fb2f5e9.chunk.css",
     "main.js": "/NetWorkers/static/js/main.57b5cdd0.chunk.js",
     "main.js.map": "/NetWorkers/static/js/main.57b5cdd0.chunk.js.map",
     "runtime~main.js": "/NetWorkers/static/js/runtime~main.628108b6.js",
@@ -9,10 +9,10 @@
     "static/js/2.abe94e70.chunk.js": "/NetWorkers/static/js/2.abe94e70.chunk.js",
     "static/js/2.abe94e70.chunk.js.map": "/NetWorkers/static/js/2.abe94e70.chunk.js.map",
     "index.html": "/NetWorkers/index.html",
-    "precache-manifest.cfdec6da3e4f8bf3f15f5210181cd18d.js": "/NetWorkers/precache-manifest.cfdec6da3e4f8bf3f15f5210181cd18d.js",
+    "precache-manifest.af75dcefd59f6443560e8ca1151ad142.js": "/NetWorkers/precache-manifest.af75dcefd59f6443560e8ca1151ad142.js",
     "service-worker.js": "/NetWorkers/service-worker.js",
     "static/css/2.efd8d4ca.chunk.css.map": "/NetWorkers/static/css/2.efd8d4ca.chunk.css.map",
-    "static/css/main.a6316f31.chunk.css.map": "/NetWorkers/static/css/main.a6316f31.chunk.css.map",
+    "static/css/main.8fb2f5e9.chunk.css.map": "/NetWorkers/static/css/main.8fb2f5e9.chunk.css.map",
     "static/media/accountant2copy.jpg": "/NetWorkers/static/media/accountant2copy.c581c827.jpg",
     "static/media/accountant3.jpg": "/NetWorkers/static/media/accountant3.5ef90ef4.jpg",
     "static/media/accountanthq.jpg": "/NetWorkers/static/media/accountanthq.7b1224f7.jpg",
